@@ -90,16 +90,17 @@ a.by:hover{color:var(--ink);text-decoration:underline;text-underline-offset:.2em
 @media (max-width:760px){.smalls{grid-template-columns:1fr}.sh{font-size:1.6rem}.topic h3{font-size:1.3rem}}
 .tweets{columns:2;column-gap:1.6rem;margin-top:1.4rem}
 .tw{border:1px solid #dcdcd5;border-radius:12px;padding:.85rem 1rem .7rem;scroll-margin-top:.5rem;break-inside:avoid;margin-bottom:1.1rem}
+
 .tw .prev{margin:.55rem 0 0;font-size:.84rem}
 .tw .hd{display:flex;align-items:center;gap:.6rem;font-size:.84rem;line-height:1.45;color:var(--muted)}
 .tw .hd b{color:var(--ink);font-weight:700;font-size:.92rem}
-.tw .tx{white-space:pre-wrap;word-break:break-word;font-size:.96rem;line-height:1.7;margin-top:.55rem}
+.tw .tx{white-space:pre-wrap;word-break:break-word;font-size:.96rem;line-height:1.7;margin-top:.55rem;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:7;overflow:hidden}
 .tw .tx a,.tw .q a{color:#1d4ed8;text-decoration:none}
 .tw .q{margin-top:.6rem;padding:.55rem .75rem;border-radius:8px;background:var(--soft);font-size:.88rem;line-height:1.6}
 .tw .q span{color:var(--muted)}
-.tw .q p{white-space:pre-wrap;word-break:break-word;margin-top:.2rem}
+.tw .q p{white-space:pre-wrap;word-break:break-word;margin-top:.2rem;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
 .tw .mw{position:relative;display:block;margin-top:.6rem}
-.tw img.m{display:block;width:100%;max-height:300px;object-fit:cover;border-radius:8px;background:var(--soft)}
+.tw img.m{display:block;width:100%;height:170px;object-fit:cover;border-radius:8px;background:var(--soft)}
 .tw .mk{position:absolute;left:.5rem;bottom:.5rem;padding:.05rem .5rem;border-radius:999px;background:rgba(0,0,0,.7);color:#fff;font-size:.75rem}
 .tw .ft{margin-top:.45rem;font-size:.8rem}
 .tw .ft a{color:var(--muted);text-underline-offset:.2em}
@@ -159,8 +160,12 @@ body{font-size:16px}
 </section>
 <section class="sec"><h2 class="sh">日本</h2>
 <ul class="tweets"><li class="tw" id="t9"><div class="hd"><img class="av" src="av/24newseveryday.jpg" alt="" width="36" height="36" loading="lazy"><div><b>News Everyday</b> <span>@24newseveryday</span><br><span>11月23日 13:18，赞 1,487</span></div></div><p class="tx">内閣府調査「国民の生活満足度、全ての分野で上昇」
-<a href="https://newseveryday.jp/2026/11/23/%e5%86%85%e9%96%a3%e5%ba%9c%e8%aa%bf%e6%9f%bb%e3%80%8c%e5%9b%bd%e6%b0%91%e3%81%ae%e7%94%9f%e6%b4%bb%e6%ba%80%e8%b6%b3%e5%ba%a6%e3%80%81%e5%85%a8%e3%81%a6%e3%81%ae%e5%88%86%e9%87%8e%e3%81%a7%e4%b8%8a/" target="_blank" rel="noopener">https://newseveryday.jp/2026/11/23/%e5%86%85%e9%96%a3%e5%ba%…</a></p><p class="ft"><a href="https://x.com/24newseveryday/status/2124719086303363210" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t10"><div class="hd"><img class="av" src="av/YahooNewsTopics.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Yahoo!ニュース</b> <span>@YahooNewsTopics</span><br><span>11月23日 18:54，赞 89</span></div></div><p class="tx">【タッチ決済改札 利用者が戸惑いも】
-<a href="https://news.yahoo.co.jp/pickup/6603699" target="_blank" rel="noopener">https://news.yahoo.co.jp/pickup/6603699</a></p><p class="ft"><a href="https://x.com/YahooNewsTopics/status/2124803643761443311" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t11"><div class="hd"><img class="av" src="av/YoheiSaiki.jpg" alt="" width="36" height="36" loading="lazy"><div><b>さいき陽平</b> <span>@YoheiSaiki</span><br><span>11月22日 22:51，赞 21</span></div></div><p class="tx">港区にはたばこ税が毎年60億円ほど入ってきております。</p><div class="q"><b>はっちゃん</b> <span>@kurokutewaruiko</span><p>@YoheiSaiki 物理的に無理がある🙄しかも非喫煙者の負担で作るんでしょ？
+<a href="https://newseveryday.jp/2026/11/23/%e5%86%85%e9%96%a3%e5%ba%9c%e8%aa%bf%e6%9f%bb%e3%80%8c%e5%9b%bd%e6%b0%91%e3%81%ae%e7%94%9f%e6%b4%bb%e6%ba%80%e8%b6%b3%e5%ba%a6%e3%80%81%e5%85%a8%e3%81%a6%e3%81%ae%e5%88%86%e9%87%8e%e3%81%a7%e4%b8%8a/" target="_blank" rel="noopener">https://newseveryday.jp/2026/11/23/%e5%86%85%e9%96%a3%e5%ba%…</a></p><p class="ft"><a href="https://x.com/24newseveryday/status/2124719086303363210" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t16"><div class="hd"><img class="av" src="av/Bot_of_Bots.jpg" alt="" width="36" height="36" loading="lazy"><div><b>平和</b> <span>@Bot_of_Bots</span><br><span>11月23日 01:32，赞 1,428</span></div></div><p class="tx">&amp;gt;住まいは人権です
+
+中野区に住みたい現役世代です。早く人権ください。</p><div class="q"><b>浦野さとみ/東京・中野区議会議員（4期目・日本共産党）/作業療法士</b> <span>@urano_satomi</span><p>特にこの1.2年、単身世帯の住宅扶助基準53,700円以内で住まいを見つけることがとても困難になっています。立ち退きなどにより転宅せざるを得ない方も、区内で見つけることはほぼ不可能な状態に..。住まいは人権です。10年以上、見直しがされていない基準の引き上げが急務です。</p></div><p class="ft"><a href="https://x.com/Bot_of_Bots/status/2124541596448473431" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t10"><div class="hd"><img class="av" src="av/YahooNewsTopics.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Yahoo!ニュース</b> <span>@YahooNewsTopics</span><br><span>11月23日 18:54，赞 89</span></div></div><p class="tx">【タッチ決済改札 利用者が戸惑いも】
+<a href="https://news.yahoo.co.jp/pickup/6603699" target="_blank" rel="noopener">https://news.yahoo.co.jp/pickup/6603699</a></p><p class="ft"><a href="https://x.com/YahooNewsTopics/status/2124803643761443311" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t12"><div class="hd"><img class="av" src="av/S_Shibuya_News.jpg" alt="" width="36" height="36" loading="lazy"><div><b>下渋谷新聞 12月13日 COMITIA</b> <span>@S_Shibuya_News</span><br><span>11月22日 20:25，赞 29</span></div></div><p class="tx">渋谷駅西口に建設中の
+当初は計画に無かったデッキ
+パネルが設置され始める</p><a class="mw" href="https://x.com/S_Shibuya_News/status/2124464258020958670" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXuc-qZbsAALz_X.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/S_Shibuya_News/status/2124464258020958670" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t11"><div class="hd"><img class="av" src="av/YoheiSaiki.jpg" alt="" width="36" height="36" loading="lazy"><div><b>さいき陽平</b> <span>@YoheiSaiki</span><br><span>11月22日 22:51，赞 21</span></div></div><p class="tx">港区にはたばこ税が毎年60億円ほど入ってきております。</p><div class="q"><b>はっちゃん</b> <span>@kurokutewaruiko</span><p>@YoheiSaiki 物理的に無理がある🙄しかも非喫煙者の負担で作るんでしょ？
 分煙では受動喫煙は防げないと結論が出てる。
 
 税金や予算使うことを考えるよりも
@@ -168,41 +173,19 @@ body{font-size:16px}
 でコストを掛けずに解決できます。
 
 なぜコストを掛けて依存症患者の病気を助長したいですか？
-不条理な施設</p></div><p class="ft"><a href="https://x.com/YoheiSaiki/status/2124500982830886949" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t12"><div class="hd"><img class="av" src="av/S_Shibuya_News.jpg" alt="" width="36" height="36" loading="lazy"><div><b>下渋谷新聞 12月13日 COMITIA</b> <span>@S_Shibuya_News</span><br><span>11月22日 20:25，赞 29</span></div></div><p class="tx">渋谷駅西口に建設中の
-当初は計画に無かったデッキ
-パネルが設置され始める</p><a class="mw" href="https://x.com/S_Shibuya_News/status/2124464258020958670" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXuc-qZbsAALz_X.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/S_Shibuya_News/status/2124464258020958670" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t13"><div class="hd"><img class="av" src="av/edogawa_aki.jpg" alt="" width="36" height="36" loading="lazy"><div><b>あきながしょう</b> <span>@edogawa_aki</span><br><span>11月23日 16:00，赞 13</span></div></div><p class="tx">区が抱える借金の返済負担を表す「実質公債費比率」。23区でいちばん低い区はどこでしょう？🧾
+不条理な施設</p></div><p class="ft"><a href="https://x.com/YoheiSaiki/status/2124500982830886949" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t14"><div class="hd"><img class="av" src="av/sustainablekk.jpg" alt="" width="36" height="36" loading="lazy"><div><b>東京クレーン太郎</b> <span>@sustainablekk</span><br><span>11月23日 19:27，赞 15</span></div></div><p class="tx">今日の東京トーチ #トーチタワー 建設夜景🏗️
+
+現在の高さは250mを超えた辺りです。
+極太の超高層ビルなので、高さ以上に迫力を感じます！</p><a class="mw" href="https://x.com/sustainablekk/status/2124812005420982281" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXzZPYBaUAAxgb5.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/sustainablekk/status/2124812005420982281" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t13"><div class="hd"><img class="av" src="av/edogawa_aki.jpg" alt="" width="36" height="36" loading="lazy"><div><b>あきながしょう</b> <span>@edogawa_aki</span><br><span>11月23日 16:00，赞 13</span></div></div><p class="tx">区が抱える借金の返済負担を表す「実質公債費比率」。23区でいちばん低い区はどこでしょう？🧾
 
 答えは江戸川区（−4.2%）。杉並区（−3.7%）、目黒区（−3.3%）が続きます。
 
-プラスだったのは2区だけです（令和6年度）。</p><a class="mw" href="https://x.com/edogawa_aki/status/2124759854900518974" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXktf5LaoAERaMk.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/edogawa_aki/status/2124759854900518974" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t14"><div class="hd"><img class="av" src="av/sustainablekk.jpg" alt="" width="36" height="36" loading="lazy"><div><b>東京クレーン太郎</b> <span>@sustainablekk</span><br><span>11月23日 19:27，赞 15</span></div></div><p class="tx">今日の東京トーチ #トーチタワー 建設夜景🏗️
-
-現在の高さは250mを超えた辺りです。
-極太の超高層ビルなので、高さ以上に迫力を感じます！</p><a class="mw" href="https://x.com/sustainablekk/status/2124812005420982281" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXzZPYBaUAAxgb5.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/sustainablekk/status/2124812005420982281" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t15"><div class="hd"><img class="av" src="av/bluestylecom.png" alt="" width="36" height="36" loading="lazy"><div><b>中谷幸司</b> <span>@bluestylecom</span><br><span>11月23日 19:02，赞 13</span></div></div><p class="tx">地上34階、高さ230m「北5西1・西2地区第一種市街地再開発事業」既存建物解体状況！札幌で一番高い超高層ビル（2026.11.9）
+プラスだったのは2区だけです（令和6年度）。</p><a class="mw" href="https://x.com/edogawa_aki/status/2124759854900518974" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXktf5LaoAERaMk.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/edogawa_aki/status/2124759854900518974" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t15"><div class="hd"><img class="av" src="av/bluestylecom.png" alt="" width="36" height="36" loading="lazy"><div><b>中谷幸司</b> <span>@bluestylecom</span><br><span>11月23日 19:02，赞 13</span></div></div><p class="tx">地上34階、高さ230m「北5西1・西2地区第一種市街地再開発事業」既存建物解体状況！札幌で一番高い超高層ビル（2026.11.9）
 <a href="https://bluestyle.livedoor.biz/archives/52604923.html" target="_blank" rel="noopener">https://bluestyle.livedoor.biz/archives/52604923.html</a>
-ブログ本文にはおまけで北海道新幹線の札幌駅の建設状況も載せています！</p><a class="mw" href="https://x.com/bluestylecom/status/2124805657216045147" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXy79EqbQAAT-tF.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/bluestylecom/status/2124805657216045147" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t16"><div class="hd"><img class="av" src="av/Bot_of_Bots.jpg" alt="" width="36" height="36" loading="lazy"><div><b>平和</b> <span>@Bot_of_Bots</span><br><span>11月23日 01:32，赞 1,428</span></div></div><p class="tx">&amp;gt;住まいは人権です
-
-中野区に住みたい現役世代です。早く人権ください。</p><div class="q"><b>浦野さとみ/東京・中野区議会議員（4期目・日本共産党）/作業療法士</b> <span>@urano_satomi</span><p>特にこの1.2年、単身世帯の住宅扶助基準53,700円以内で住まいを見つけることがとても困難になっています。立ち退きなどにより転宅せざるを得ない方も、区内で見つけることはほぼ不可能な状態に..。住まいは人権です。10年以上、見直しがされていない基準の引き上げが急務です。</p></div><p class="ft"><a href="https://x.com/Bot_of_Bots/status/2124541596448473431" target="_blank" rel="noopener">在 X 上打开</a></p></li></ul>
+ブログ本文にはおまけで北海道新幹線の札幌駅の建設状況も載せています！</p><a class="mw" href="https://x.com/bluestylecom/status/2124805657216045147" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXy79EqbQAAT-tF.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/bluestylecom/status/2124805657216045147" target="_blank" rel="noopener">在 X 上打开</a></p></li></ul>
 </section>
 <section class="sec"><h2 class="sh">科技和 AI</h2>
-<ul class="tweets"><li class="tw" id="t17"><div class="hd"><img class="av" src="av/silsrc.jpg" alt="" width="36" height="36" loading="lazy"><div><b>scr.c</b> <span>@silsrc</span><br><span>11月23日 14:52，赞 209</span></div></div><p class="tx">算是一个观察，今年国际 Linux 内核相关会议，赞助商人数有的历史最高，有的人山人海，A\ 到处挖知名内核开发，虽不知NV规划但对社区也是更重视了。咱也收到类似邮件但无缘CST+8，几家国外大厂裁员也都几乎没动这些底层岗
-
-国内则相关岗市场则收缩非常剧烈，颇有一种底层已完，要么转AI要么死的架势…</p><p class="ft"><a href="https://x.com/silsrc/status/2124742812050624829" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t18"><div class="hd"><img class="av" src="av/andyarditi.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Andy Arditi</b> <span>@andyarditi</span><br><span>11月23日 17:06，赞 437</span></div></div><p class="tx">I joined Thinking Machines. <a href="https://www.andyrdt.com/posts/joining-thinking-machines" target="_blank" rel="noopener">https://www.andyrdt.com/posts/joining-thinking-machines</a></p><p class="ft"><a href="https://x.com/andyarditi/status/2124776583378665742" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t19"><div class="hd"><img class="av" src="av/plattypuus.jpg" alt="" width="36" height="36" loading="lazy"><div><b>タイド</b> <span>@plattypuus</span><br><span>11月23日 18:13，赞 1</span></div></div><p class="tx">OpenAI APIの実装を、説明だけでなく動く例で試す。
-
-OpenAI CookbookはAPIの一般的な作業向けのcode exampleとguide集。多くはPythonで、実行にはOpenAI accountとAPI keyが必要です。完成品ではなく、用途に合わせて組み立てる出発点。
-
-<a href="https://github.com/openai/openai-cookbook" target="_blank" rel="noopener">https://github.com/openai/openai-cookbook</a></p><p class="ft"><a href="https://x.com/plattypuus/status/2124793329011261777" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t20"><div class="hd"><img class="av" src="av/skywt2003.jpg" alt="" width="36" height="36" loading="lazy"><div><b>SkyWT</b> <span>@skywt2003</span><br><span>11月23日 17:47，赞 15</span></div></div><p class="tx">首屏性能优化的奇技淫巧：
-
-小红书网页版是 SSR 的。为了让这个 app 首屏更快，我直接先用缓存的 cookie 预发一次请求，单独写了个 parser 从 HTML 解析第一波帖子图片文字（来不及等 Webview 初始化了）。
-
-这种方式让首屏提前了 1.5 秒左右。</p><div class="q"><b>SkyWT</b> <span>@skywt2003</span><p>一不做二不休，直接基于 Web 获取数据，把整个页面用 native 重制了。
-
-即将推出，小红书 iOS native 版 🤣</p></div><p class="ft"><a href="https://x.com/skywt2003/status/2124787001157447914" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t21"><div class="hd"><img class="av" src="av/AravSrinivas.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Aravind Srinivas</b> <span>@AravSrinivas</span><br><span>11月23日 16:22，赞 708</span></div></div><p class="tx">Gemini 4 Neon has compounded at +10.6%/day in Ask (fast search) queries and +15.0%/day in Computer (agentic tasks) user-generated on Perplexity, since its first full day (Nov 19 to Nov 22, 22-hour matched basis).</p><p class="ft"><a href="https://x.com/AravSrinivas/status/2124765417378099414" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t22"><div class="hd"><img class="av" src="av/t3u_tsu.jpg" alt="" width="36" height="36" loading="lazy"><div><b>t3u</b> <span>@t3u_tsu</span><br><span>11月23日 12:42，赞 558</span></div></div><p class="tx">買ってよかったThinkpad
-
-ここがすごい！
-- Linux入れたときに、すんなり全機能動く
-- 公式HPで分解メンテのマニュアルが公開されている
-- なぜか2019年モデルの交換バッテリーが公式HPから買える(業者のバルク品よりも安い)
-- r/thinkpadなど、改造やらの情報が充実したコミュニティがある</p><p class="ft"><a href="https://x.com/t3u_tsu/status/2124710123390345388" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t23"><div class="hd"><img class="av" src="av/imjustnewatai.jpg" alt="" width="36" height="36" loading="lazy"><div><b>imjustnewatai</b> <span>@imjustnewatai</span><br><span>11月23日 15:37，赞 1,018</span></div></div><p class="tx">Google helium is coming next week.
+<ul class="tweets"><li class="tw" id="t23"><div class="hd"><img class="av" src="av/imjustnewatai.jpg" alt="" width="36" height="36" loading="lazy"><div><b>imjustnewatai</b> <span>@imjustnewatai</span><br><span>11月23日 15:37，赞 1,018</span></div></div><p class="tx">Google helium is coming next week.
 
 It’s a very very cheap model but it’s really really intelligent. I would say on the level of opus 5.5 at like around 50 cents in and 1 dollar out</p><p class="ft"><a href="https://x.com/imjustnewatai/status/2124754277931323452" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t24"><div class="hd"><img class="av" src="av/Idontselldrug.jpg" alt="" width="36" height="36" loading="lazy"><div><b>VVV从头再来</b> <span>@Idontselldrug</span><br><span>11月23日 14:02，赞 767</span></div></div><p class="tx">我对gpt的厌恶彻底到达了最高点
 
@@ -210,89 +193,88 @@ It’s a very very cheap model but it’s really really intelligent. I would say
 
 最恶心的是我问他怎么回事，他说“上下文都压缩了，我也忘了，没有证据能表明我是因为版权和敏感原因删改内容”
 我问他还有什么其他可能的原因
-他说没有了</p><p class="ft"><a href="https://x.com/Idontselldrug/status/2124730191847276654" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t25"><div class="hd"><img class="av" src="av/lei74557606.png" alt="" width="36" height="36" loading="lazy"><div><b>fatelei</b> <span>@lei74557606</span><br><span>11月23日 15:27，赞 63</span></div></div><p class="tx">您好，感谢您来公司参与面试，刚刚技术负责人回复面试没有通过，我们推崇大家用Ai做功能实现，您提交的作业功能实现完整度有欠缺，其次代码缺乏白盒化，后续如果出现问题难以排查。最后祝您找到合适的工作机会[玫瑰][玫瑰]被拒的公司给我的评价，我在想 vibe coding 什么是白盒化，哪位大佬点拨下</p><p class="ft"><a href="https://x.com/lei74557606/status/2124751615462932794" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t26"><div class="hd"><img class="av" src="av/Techmeme.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Techmeme</b> <span>@Techmeme</span><br><span>11月23日 18:05，赞 1</span></div></div><p class="tx">A look at AECJ, an Amazon employee group with over 1,000 members that is stepping up efforts to slow Amazon&#x27;s data center expansion and spark debate over AI use (@rafeuddin_ / Financial Times)
+他说没有了</p><p class="ft"><a href="https://x.com/Idontselldrug/status/2124730191847276654" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t21"><div class="hd"><img class="av" src="av/AravSrinivas.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Aravind Srinivas</b> <span>@AravSrinivas</span><br><span>11月23日 16:22，赞 708</span></div></div><p class="tx">Gemini 4 Neon has compounded at +10.6%/day in Ask (fast search) queries and +15.0%/day in Computer (agentic tasks) user-generated on Perplexity, since its first full day (Nov 19 to Nov 22, 22-hour matched basis).</p><p class="ft"><a href="https://x.com/AravSrinivas/status/2124765417378099414" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t22"><div class="hd"><img class="av" src="av/t3u_tsu.jpg" alt="" width="36" height="36" loading="lazy"><div><b>t3u</b> <span>@t3u_tsu</span><br><span>11月23日 12:42，赞 558</span></div></div><p class="tx">買ってよかったThinkpad
 
-(Visit Techmeme dot com for the link and full context!)</p><p class="ft"><a href="https://x.com/Techmeme/status/2124791538517721306" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t27"><div class="hd"><img class="av" src="av/turingbook.jpg" alt="" width="36" height="36" loading="lazy"><div><b>刘江</b> <span>@turingbook</span><br><span>11月23日 19:07，赞 6</span></div></div><p class="tx">但两个Scheme其实没啥关系。Scheme语言最开始叫Schemer（“阴谋家/计划者”），为了延续其前辈语言 Planner（计划者）和 Conniver（共谋者）的命名传统。但当时底层操作系统（ITS）的文件名最多只能有 6 个字符，所以文件名只好都是scheme，久而久之，语言名字也改了……</p><div class="q"><b>灰狐</b> <span>@huihoo</span><p>冷知识： 
-
-Scheme 是 Lisp 的一种方言
-同时 概形（Scheme）是代数几何中的一个基本概念
-
-共同的审美，极简与抽象
-一个重构了计算逻辑，一个重构了空间与数的本质</p></div><p class="ft"><a href="https://x.com/turingbook/status/2124806985464045709" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t28"><div class="hd"><img class="av" src="av/oldj.jpg" alt="" width="36" height="36" loading="lazy"><div><b>oldj</b> <span>@oldj</span><br><span>11月23日 16:04，赞 12</span></div></div><p class="tx">N 年前捐赠支持过 Synergy，一个能用一套鼠标键盘控制多台电脑的工具，当时它还是一款免费软件，没想到这么多年了它一直在更新，而且每次发了新的大版本都会给我发 license，让我可以免费升级，虽然我暂时没有相关需求了。喜欢这个团队。❤️</p><p class="ft"><a href="https://x.com/oldj/status/2124761071374553313" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t29"><div class="hd"><img class="av" src="av/xingbugengming.jpg" alt="" width="36" height="36" loading="lazy"><div><b>小奇说</b> <span>@xingbugengming</span><br><span>11月23日 10:07，赞 43</span></div></div><p class="tx">昨天一直在纳闷，感觉Codex是不是偷偷降智了？
-
-我全程用的是 6.2-Astra Max 挡位跑的任务，很多任务三令五申这样做，一直不听指令
-
-今天一看后台怎么全路由到5.6-luna上了？？？这他妈什么情况啊，Codex还tm怎么用啊</p><a class="mw" href="https://x.com/xingbugengming/status/2124671169123209576" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXxYNqqbQAA9-ei.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/xingbugengming/status/2124671169123209576" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t30"><div class="hd"><img class="av" src="av/st7evechou.jpg" alt="" width="36" height="36" loading="lazy"><div><b>𝗦𝘁𝗲𝘃𝗲 𝕏</b> <span>@st7evechou</span><br><span>11月23日 14:34，赞 7</span></div></div><p class="tx">豆包输入法也推出了语音免跳转这个功能。
-
-以上推文是在豆包输入法免跳转语音，上面由语音转文字生成。</p><a class="mw" href="https://x.com/st7evechou/status/2124738252632711527" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyVUjha8AAducT.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/st7evechou/status/2124738252632711527" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t31"><div class="hd"><img class="av" src="av/oasisfeng.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Oasis Feng</b> <span>@oasisfeng</span><br><span>11月23日 17:17，赞 16</span></div></div><p class="tx">啊，悔死我了！前几天手欠，居然无脑点了 Tesla app 里推送的 OTA 升级…… 错失了不用硬改就能自主激活 FSD 的天赐良机！🫠
-
-eMudhra 证书刚爆出的时候，我就只想到 sniff 了一下投影仪的网络请求，怎么就没有敏锐地意识到 Tesla FSD 也已是囊中之物了呢！😱</p><div class="q"><b>Oasis Feng</b> <span>@oasisfeng</span><p>@HuangXemee 我在 2019 年就订购的 FSD，中国内地依然还是镜花水月……
-
-现在不仅 FSD 没影儿，连 6 年前都已经用上的 EAP 反倒还被废了。</p></div><p class="ft"><a href="https://x.com/oasisfeng/status/2124779389938450679" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t32"><div class="hd"><img class="av" src="av/landiantech.jpg" alt="" width="36" height="36" loading="lazy"><div><b>蓝点网</b> <span>@landiantech</span><br><span>11月23日 13:36，赞 8</span></div></div><p class="tx">微软展示 RDMA over USB4 连接多台 Windows 11 PC，让 AI 模型在多台设备之间共同运行。
-
-RDMA 指的是远程直接内存访问，而通过 USB4 链路可以直接绕过以太网 UDP 网络栈从而提高性能。
-
-微软展示的案例显示，3 台搭载 AMD RYZEN AI Max 处理器的迷你机，运行 4 位量化的 Qwen3-235B-A22B，每秒生成速度为 18.5 个 Token。
-
-以上为内容摘要，查看全文：<a href="https://ourl.co/128709" target="_blank" rel="noopener">https://ourl.co/128709</a></p><a class="mw" href="https://x.com/landiantech/status/2124723641766265274" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyI5H3aoAALgoY.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/landiantech/status/2124723641766265274" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t33"><div class="hd"><img class="av" src="av/object_nullll.jpg" alt="" width="36" height="36" loading="lazy"><div><b>AKR</b> <span>@object_nullll</span><br><span>11月23日 17:32，赞 37</span></div></div><p class="tx">这个也太颠了，什么叫 Go 加上 class、继承、重载、多态、装饰器😨😨😨
-
-<a href="https://github.com/telgatech/gpp" target="_blank" rel="noopener">https://github.com/telgatech/gpp</a></p><p class="ft"><a href="https://x.com/object_nullll/status/2124783234085253217" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t34"><div class="hd"><img class="av" src="av/yicaichina.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Yicai 第一财经</b> <span>@yicaichina</span><br><span>11月23日 17:56，赞 2</span></div></div><p class="tx">Chinese LLMs Rank First in Call Volume on OpenRouter for 30th Straight Week <a href="https://buff.ly/cH1992Y" target="_blank" rel="noopener">https://buff.ly/cH1992Y</a></p><p class="ft"><a href="https://x.com/yicaichina/status/2124789105980486059" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t35"><div class="hd"><img class="av" src="av/heitieya.jpg" alt="" width="36" height="36" loading="lazy"><div><b>黑铁</b> <span>@heitieya</span><br><span>11月23日 13:55，赞 80</span></div></div><p class="tx">算完账我是真不想再续 Claude 和 Codex 了 😮‍💨
-
-黑五 5 折直接 99.99 刀拿了一年正规 Google AI Pro，不到 100 刀用满 12 个月，还不够对面一个月高配会员钱 💸
-
-反重力里 Gemini 4 Neon、Argon、Hydrogen 全亮了，还带 5TB 云盘，买完顺手把明年自动续订一关，终于不用天天提心吊胆了。</p><p class="ft"><a href="https://x.com/heitieya/status/2124728612285030619" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t36"><div class="hd"><img class="av" src="av/takku_4331.jpg" alt="" width="36" height="36" loading="lazy"><div><b>やみち</b> <span>@takku_4331</span><br><span>11月23日 14:32，赞 98</span></div></div><p class="tx">XREAL AURA、初期の追従が正面きて邪魔だから左右に情報出すアプリ作った
-徒歩時はこんなもんでいいのよ</p><a class="mw" href="https://x.com/takku_4331/status/2124737776138805486" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/amplify_video_thumb/2124737348563091456/img/eIP_l8sRGtg1ThNP.jpg" alt="" loading="lazy"><span class="mk">视频</span></a><p class="ft"><a href="https://x.com/takku_4331/status/2124737776138805486" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t37"><div class="hd"><img class="av" src="av/chimolog7.jpg" alt="" width="36" height="36" loading="lazy"><div><b>やっぱもちです。</b> <span>@chimolog7</span><br><span>11月23日 16:37，赞 102</span></div></div><p class="tx">VRAM 256GB気持ちよすぎる
-IQ4_XS、MiniMax H3、鳴潮 これが全部同時に動くぞ
-しかも省電力、小型（3L）、意外と静か、これが時価総額5兆ドルの企業が本気で作ったハードですか
-さすがに強い
-（Metal遅いの気になるけど･･･ もうちょっと生成界隈にお金ばら撒いて何とかしてくれない？りんごさん）</p><p class="ft"><a href="https://x.com/chimolog7/status/2124769266536980783" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t38"><div class="hd"><img class="av" src="av/Lakr233.jpg" alt="" width="36" height="36" loading="lazy"><div><b>砍砍.ᐟ</b> <span>@Lakr233</span><br><span>11月23日 16:14，赞 35</span></div></div><p class="tx">不错 谷歌的 $200 送 $100 GCP 赠金 开点开发机很不错了</p><a class="mw" href="https://x.com/Lakr233/status/2124763451566551519" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXytCe2bgAAVNo5.png" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/Lakr233/status/2124763451566551519" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t39"><div class="hd"><img class="av" src="av/moritalous.png" alt="" width="36" height="36" loading="lazy"><div><b>moritalous</b> <span>@moritalous</span><br><span>11月23日 18:31，赞 7</span></div></div><p class="tx">技術書典オンラインマーケットでササキですの「生成AI時代のクレデンシャルとパーミッション設計 — Claude Code を起点に」を購入しました！ #技術書典 #技術書典で刺さった本 <a href="https://techbookfest.org/product/5BGFVMv99EEKJcfsJKkMeN?utm_source=twitter&amp;utm_medium=social&amp;utm_campaign=bought" target="_blank" rel="noopener">https://techbookfest.org/product/5BGFVMv99EEKJcfsJKkMeN?utm_…</a></p><p class="ft"><a href="https://x.com/moritalous/status/2124797950509682826" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t40"><div class="hd"><img class="av" src="av/yifielu27988.jpg" alt="" width="36" height="36" loading="lazy"><div><b>yifeilu</b> <span>@yifielu27988</span><br><span>11月23日 17:58，赞 12</span></div></div><p class="tx">逆天ISCC线下赛为了防ai，直接不让你用mac电脑，nb，头一次见到</p><a class="mw" href="https://x.com/yifielu27988/status/2124789611142803736" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXzE4wqbIAAtqPD.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/yifielu27988/status/2124789611142803736" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t41"><div class="hd"><img class="av" src="av/OmarShahine.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Omar Shahine</b> <span>@OmarShahine</span><br><span>11月23日 14:23，赞 123</span></div></div><p class="tx">If you have an iPhone Duo, this is a must-have Safari extension to put websites in desktop mode when you open up your Duo
-
-<a href="https://apps.apple.com/us/app/desky-desktop-mode-switching/id6833103142" target="_blank" rel="noopener">https://apps.apple.com/us/app/desky-desktop-mode-switching/i…</a></p><p class="ft"><a href="https://x.com/OmarShahine/status/2124735677954916426" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t42"><div class="hd"><img class="av" src="av/xfgong.jpg" alt="" width="36" height="36" loading="lazy"><div><b>chris</b> <span>@xfgong</span><br><span>11月23日 11:11，赞 8</span></div></div><p class="tx">CubePod 架构上选择依赖 K8s, 那么就意味着沙盒的无预热池冷启动 Benchmark 怎么也跑不过原生 E2B，这是性能和生态的取舍。只有一个指标可能会超过 E2B，就是 resume 容器睡醒 P99 时间,  这是因为如果 E2B 跨节点恢复的流程和时间会远远超过 CubePod 的。</p><p class="ft"><a href="https://x.com/xfgong/status/2124687367160373326" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t43"><div class="hd"><img class="av" src="av/victormustar.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Victor M</b> <span>@victormustar</span><br><span>11月23日 18:12，赞 38</span></div></div><p class="tx">Inkling 2 Mini sessions in Pi: 87% of its tool calls went through Bash never called Pi’s edit tool. Instead it ran Python to read a file, replace text, and write it back 👀</p><p class="ft"><a href="https://x.com/victormustar/status/2124793207212867848" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t44"><div class="hd"><img class="av" src="av/ygkkkg.jpg" alt="" width="36" height="36" loading="lazy"><div><b>甬哥侃侃侃ygkkk</b> <span>@ygkkkg</span><br><span>11月23日 16:54，赞 73</span></div></div><p class="tx">📢Dmit VPS大妈怒发公告：
-
-不要在乱建代理翻墙协议了，流量被人偷得不要不要的，自己都不知道。
-
-特别是那些用AI来搭建reality协议的人注意：不要用Cloudflare域名用作SNI域名。
-
-再这样下去，我让甬哥直接封你们Dmit账号，恕不退款😮🤣</p><a class="mw" href="https://x.com/ygkkkg/status/2124773571239252295" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXy098xbEAAV8Ny.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/ygkkkg/status/2124773571239252295" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t45"><div class="hd"><img class="av" src="av/ChrisZheng001.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Chris Zheng</b> <span>@ChrisZheng001</span><br><span>11月22日 21:43，赞 419</span></div></div><p class="tx">尝试解读一下 Elon 这两段 Reality View 技术分享：
+ここがすごい！
+- Linux入れたときに、すんなり全機能動く
+- 公式HPで分解メンテのマニュアルが公開されている
+- なぜか2019年モデルの交換バッテリーが公式HPから買える(業者のバルク品よりも安い)
+- r/thinkpadなど、改造やらの情報が充実したコミュニティがある</p><p class="ft"><a href="https://x.com/t3u_tsu/status/2124710123390345388" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t18"><div class="hd"><img class="av" src="av/andyarditi.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Andy Arditi</b> <span>@andyarditi</span><br><span>11月23日 17:06，赞 437</span></div></div><p class="tx">I joined Thinking Machines. <a href="https://www.andyrdt.com/posts/joining-thinking-machines" target="_blank" rel="noopener">https://www.andyrdt.com/posts/joining-thinking-machines</a></p><p class="ft"><a href="https://x.com/andyarditi/status/2124776583378665742" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t45"><div class="hd"><img class="av" src="av/ChrisZheng001.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Chris Zheng</b> <span>@ChrisZheng001</span><br><span>11月22日 21:43，赞 419</span></div></div><p class="tx">尝试解读一下 Elon 这两段 Reality View 技术分享：
 
 首先，去年起特斯拉有了一个像素级精准的云端世界模型，用于 FSD 的合成数据训练。
 
 来到车上，全车摄像头的画面会先经过一个通用视觉编码器，压缩成一串特征，这些特征可以理解为神经网络的笔记。接下来这份笔记会分成两路，一路导入一个30 亿参数的负责开车的 FSD 模型，另一路导入一个 10 亿参数的扩散模型，负责 Reality View。
 
-在具体的实现上，特斯拉 AI4 有 Soc A 和 Soc B 两个主芯片，每个芯片有 3 个 TRIP 加速器，Reality View 排在 Soc B 的半个加速器上，大约占 AI4 总算力的 8%。
+在具体的实现上，特斯拉 AI4 有 Soc A 和 Soc B 两个主芯片，每个芯片有 3 个 TRIP 加速器，Reality View 排在…</p><div class="q"><b>Elon Musk</b> <span>@elonmusk</span><p>After we moved our tiny decoder into SRAM, we only have half a TRIP out of three on SoC B, for this reality visualizer, so spent the compute as best we could. T</p></div><p class="ft"><a href="https://x.com/ChrisZheng001/status/2124483963720958096" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t17"><div class="hd"><img class="av" src="av/silsrc.jpg" alt="" width="36" height="36" loading="lazy"><div><b>scr.c</b> <span>@silsrc</span><br><span>11月23日 14:52，赞 209</span></div></div><p class="tx">算是一个观察，今年国际 Linux 内核相关会议，赞助商人数有的历史最高，有的人山人海，A\ 到处挖知名内核开发，虽不知NV规划但对社区也是更重视了。咱也收到类似邮件但无缘CST+8，几家国外大厂裁员也都几乎没动这些底层岗
 
-AI4 是一个今天看来有点落后的芯片，TRIP 加速器是在卷积神经网络时代设计的，擅长 8 位整数运算（INT8），但现在 FSD 的 Transformer 和扩散模型大量用到 softmax，需要指数和除法，最好用浮点数来算，而 TRIP 加速器原生不擅长，只能拆成 28 个小步骤模拟出来，又慢又费资源。
+国内则相关岗市场则收缩非常剧烈，颇有一种底层已完，要么转AI要么死的架势…</p><p class="ft"><a href="https://x.com/silsrc/status/2124742812050624829" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t41"><div class="hd"><img class="av" src="av/OmarShahine.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Omar Shahine</b> <span>@OmarShahine</span><br><span>11月23日 14:23，赞 123</span></div></div><p class="tx">If you have an iPhone Duo, this is a must-have Safari extension to put websites in desktop mode when you open up your Duo
 
-具体到 Elon 说的几个数字，负责 Reality View 的扩散模型每次生成一段 8 帧，帧率为 36 帧/s 的视频，也就是 8/36 = 时长大约 0.22 秒的视频。
+<a href="https://apps.apple.com/us/app/desky-desktop-mode-switching/id6833103142" target="_blank" rel="noopener">https://apps.apple.com/us/app/desky-desktop-mode-switching/i…</a></p><p class="ft"><a href="https://x.com/OmarShahine/status/2124735677954916426" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t37"><div class="hd"><img class="av" src="av/chimolog7.jpg" alt="" width="36" height="36" loading="lazy"><div><b>やっぱもちです。</b> <span>@chimolog7</span><br><span>11月23日 16:37，赞 102</span></div></div><p class="tx">VRAM 256GB気持ちよすぎる
+IQ4_XS、MiniMax H3、鳴潮 これが全部同時に動くぞ
+しかも省電力、小型（3L）、意外と静か、これが時価総額5兆ドルの企業が本気で作ったハードですか
+さすがに強い
+（Metal遅いの気になるけど･･･ もうちょっと生成界隈にお金ばら撒いて何とかしてくれない？りんごさん）</p><p class="ft"><a href="https://x.com/chimolog7/status/2124769266536980783" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t36"><div class="hd"><img class="av" src="av/takku_4331.jpg" alt="" width="36" height="36" loading="lazy"><div><b>やみち</b> <span>@takku_4331</span><br><span>11月23日 14:32，赞 98</span></div></div><p class="tx">XREAL AURA、初期の追従が正面きて邪魔だから左右に情報出すアプリ作った
+徒歩時はこんなもんでいいのよ</p><a class="mw" href="https://x.com/takku_4331/status/2124737776138805486" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/amplify_video_thumb/2124737348563091456/img/eIP_l8sRGtg1ThNP.jpg" alt="" loading="lazy"><span class="mk">视频</span></a><p class="ft"><a href="https://x.com/takku_4331/status/2124737776138805486" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t35"><div class="hd"><img class="av" src="av/heitieya.jpg" alt="" width="36" height="36" loading="lazy"><div><b>黑铁</b> <span>@heitieya</span><br><span>11月23日 13:55，赞 80</span></div></div><p class="tx">算完账我是真不想再续 Claude 和 Codex 了 😮‍💨
 
-这个分布在通用视觉编码器的 4 个周期上，通用视觉编码器是 18 Hz，4/1…</p><div class="q"><b>Elon Musk</b> <span>@elonmusk</span><p>After we moved our tiny decoder into SRAM, we only have half a TRIP out of three on SoC B, for this reality visualizer, so spent the compute as best we could. TRIP basically only handles 8-bit int and has to run softmax in emulation mode in 28 steps. 
+黑五 5 折直接 99.99 刀拿了一年正规 Google AI Pro，不到 100 刀用满 12 个月，还不够对面一个月高配会员钱 💸
 
-AI5 is a gigantic improvement. Roughly 12X more</p></div><p class="ft"><a href="https://x.com/ChrisZheng001/status/2124483963720958096" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t46"><div class="hd"><img class="av" src="av/zkyo.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Chris</b> <span>@zkyo</span><br><span>11月23日 17:27，赞 35</span></div></div><p class="tx">Antigravity ACP 模式插件 Cindy 已经上架了。需要用的同学，更新到最新的 beta 版本 0.1.144 以上，去装个插件就能识别本地的 Antigravity 的账户使用了。当然 ACP 方式 Google 自称是不封号的，也不算 Cindy 完整都测过的供应商模式，如果遇到一些小问题，可以自己修改插件优化优化。</p><a class="mw" href="https://x.com/zkyo/status/2124781839181357522" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXy9MOlasAAQQGE.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/zkyo/status/2124781839181357522" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t47"><div class="hd"><img class="av" src="av/Xudong07452910.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Xudong Han</b> <span>@Xudong07452910</span><br><span>11月23日 09:31，赞 55</span></div></div><p class="tx">美国众议院刚发了一份调查中国 AI 模型的联合报告，Hugging Face CEO 转发说，应对中国开源最好的办法是做更多美国开源，别去禁。
+反重力里 Gemini 4 Neon、Argon、Hydrogen 全亮了，还带 5TB 云盘，买完顺手把明年自动续订一关，终于不用天天提心吊胆了。</p><p class="ft"><a href="https://x.com/heitieya/status/2124728612285030619" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t44"><div class="hd"><img class="av" src="av/ygkkkg.jpg" alt="" width="36" height="36" loading="lazy"><div><b>甬哥侃侃侃ygkkk</b> <span>@ygkkkg</span><br><span>11月23日 16:54，赞 73</span></div></div><p class="tx">📢Dmit VPS大妈怒发公告：
+
+不要在乱建代理翻墙协议了，流量被人偷得不要不要的，自己都不知道。
+
+特别是那些用AI来搭建reality协议的人注意：不要用Cloudflare域名用作SNI域名。
+
+再这样下去，我让甬哥直接封你们Dmit账号，恕不退款😮🤣</p><a class="mw" href="https://x.com/ygkkkg/status/2124773571239252295" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXy098xbEAAV8Ny.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/ygkkkg/status/2124773571239252295" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t25"><div class="hd"><img class="av" src="av/lei74557606.png" alt="" width="36" height="36" loading="lazy"><div><b>fatelei</b> <span>@lei74557606</span><br><span>11月23日 15:27，赞 63</span></div></div><p class="tx">您好，感谢您来公司参与面试，刚刚技术负责人回复面试没有通过，我们推崇大家用Ai做功能实现，您提交的作业功能实现完整度有欠缺，其次代码缺乏白盒化，后续如果出现问题难以排查。最后祝您找到合适的工作机会[玫瑰][玫瑰]被拒的公司给我的评价，我在想 vibe coding 什么是白盒化，哪位大佬点拨下</p><p class="ft"><a href="https://x.com/lei74557606/status/2124751615462932794" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t47"><div class="hd"><img class="av" src="av/Xudong07452910.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Xudong Han</b> <span>@Xudong07452910</span><br><span>11月23日 09:31，赞 55</span></div></div><p class="tx">美国众议院刚发了一份调查中国 AI 模型的联合报告，Hugging Face CEO 转发说，应对中国开源最好的办法是做更多美国开源，别去禁。
 
 作为中国 AI 从业者，看完心情挺复杂的。
 
 一方面，报告等于在美国国会层面承认了中国开源的分量。过去一年 Hugging Face 上 41% 的下载来自中国模型，Airbnb 每天用 Qwen 处理约 8 万次客服对话，Cursor 的 Composer 2 基座是 Kimi。按公开价格，同样的用量美国闭源模型要贵 6 到 30 倍，企业说得很直白，选它就是因为又快又便宜。
 
-另一方面，整份报告的基调是安全威胁。它把中国的进步很大一部分归因于蒸馏美国模型，建议禁止联邦系统使用中国模型，关键基础设施分阶段禁用，还建议把相关公司列进实体清单，限制拿美国芯片和算力。
+另一方面，整份报告的基调是安全…</p><div class="q"><b>clem 🤗</b> <span>@ClementDelangue</span><p>American researchers, startups, nonprofits, government, students and hobbyists overwhelmingly benefit from open-source AI, wherever it comes from.
 
-美国开源也确实开始追了，报告点了 Meta、NVIDIA、Thinking Machines、Reflection 几家，还提出要搞一个国家级开源计划，提供公共算力。我感觉中国开源的优势在性价比和开放程度，这个窗口期不会一直在。
+The best res</p></div><p class="ft"><a href="https://x.com/Xudong07452910/status/2124661960167891285" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t29"><div class="hd"><img class="av" src="av/xingbugengming.jpg" alt="" width="36" height="36" loading="lazy"><div><b>小奇说</b> <span>@xingbugengming</span><br><span>11月23日 10:07，赞 43</span></div></div><p class="tx">昨天一直在纳闷，感觉Codex是不是偷偷降智了？
 
-我更担心的是后面的算力限制。前几年卡被卡，反而逼出了更省算力的架构。如果限制从芯片延伸到云和算力服务，海外市场的路可能会更窄，接下来还得看国产卡能不能接上。
+我全程用的是 6.2-Astra Max 挡位跑的任务，很多任务三令五申这样做，一直不听指令
 
-开源本来是大家一起往前走的事，现在越来越像被拉进大国博弈里了。</p><div class="q"><b>clem 🤗</b> <span>@ClementDelangue</span><p>American researchers, startups, nonprofits, government, students and hobbyists overwhelmingly benefit from open-source AI, wherever it comes from.
+今天一看后台怎么全路由到5.6-luna上了？？？这他妈什么情况啊，Codex还tm怎么用啊</p><a class="mw" href="https://x.com/xingbugengming/status/2124671169123209576" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXxYNqqbQAA9-ei.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/xingbugengming/status/2124671169123209576" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t43"><div class="hd"><img class="av" src="av/victormustar.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Victor M</b> <span>@victormustar</span><br><span>11月23日 18:12，赞 38</span></div></div><p class="tx">Inkling 2 Mini sessions in Pi: 87% of its tool calls went through Bash never called Pi’s edit tool. Instead it ran Python to read a file, replace text, and write it back 👀</p><p class="ft"><a href="https://x.com/victormustar/status/2124793207212867848" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t33"><div class="hd"><img class="av" src="av/object_nullll.jpg" alt="" width="36" height="36" loading="lazy"><div><b>AKR</b> <span>@object_nullll</span><br><span>11月23日 17:32，赞 37</span></div></div><p class="tx">这个也太颠了，什么叫 Go 加上 class、继承、重载、多态、装饰器😨😨😨
 
-The best response to Chinese open-source AI isn’t to ban it, it’s to build more American open-source AI! 🇺🇸
+<a href="https://github.com/telgatech/gpp" target="_blank" rel="noopener">https://github.com/telgatech/gpp</a></p><p class="ft"><a href="https://x.com/object_nullll/status/2124783234085253217" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t38"><div class="hd"><img class="av" src="av/Lakr233.jpg" alt="" width="36" height="36" loading="lazy"><div><b>砍砍.ᐟ</b> <span>@Lakr233</span><br><span>11月23日 16:14，赞 35</span></div></div><p class="tx">不错 谷歌的 $200 送 $100 GCP 赠金 开点开发机很不错了</p><a class="mw" href="https://x.com/Lakr233/status/2124763451566551519" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXytCe2bgAAVNo5.png" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/Lakr233/status/2124763451566551519" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t46"><div class="hd"><img class="av" src="av/zkyo.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Chris</b> <span>@zkyo</span><br><span>11月23日 17:27，赞 35</span></div></div><p class="tx">Antigravity ACP 模式插件 Cindy 已经上架了。需要用的同学，更新到最新的 beta 版本 0.1.144 以上，去装个插件就能识别本地的 Antigravity 的账户使用了。当然 ACP 方式 Google 自称是不封号的，也不算 Cindy 完整都测过的供应商模式，如果遇到一些小问题，可以自己修改插件优化优化。</p><a class="mw" href="https://x.com/zkyo/status/2124781839181357522" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXy9MOlasAAQQGE.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/zkyo/status/2124781839181357522" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t31"><div class="hd"><img class="av" src="av/oasisfeng.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Oasis Feng</b> <span>@oasisfeng</span><br><span>11月23日 17:17，赞 16</span></div></div><p class="tx">啊，悔死我了！前几天手欠，居然无脑点了 Tesla app 里推送的 OTA 升级…… 错失了不用硬改就能自主激活 FSD 的天赐良机！🫠
 
-Great to see a new US House report recogniz</p></div><p class="ft"><a href="https://x.com/Xudong07452910/status/2124661960167891285" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t48"><div class="hd"><img class="av" src="av/axeptio_eu.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Axeptio</b> <span>@axeptio_eu</span><br><span>11月23日 19:00，赞 1</span></div></div><p class="tx">We’re opening Axeptio to AI agents. Our MCP connector gives Claude, ChatGPT, Mistral Vibe and other compatible assistants 130+ actions in our CMP, from banner design to analytics and migrations. Now in beta. 
-➡️ Full announcement: <a href="https://hubs.ly/Q04FW9120" target="_blank" rel="noopener">https://hubs.ly/Q04FW9120</a></p><a class="mw" href="https://x.com/axeptio_eu/status/2124805200686784816" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/ext_tw_video_thumb/2124805156151717888/pu/img/dDSV-oSld8gHLIpI.jpg" alt="" loading="lazy"><span class="mk">视频</span></a><p class="ft"><a href="https://x.com/axeptio_eu/status/2124805200686784816" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t49"><div class="hd"><img class="av" src="av/SuJinYan123.jpg" alt="" width="36" height="36" loading="lazy"><div><b>susun</b> <span>@SuJinYan123</span><br><span>11月23日 17:59，赞 12</span></div></div><p class="tx"><a href="https://api.kern-llm.org/status/" target="_blank" rel="noopener">https://api.kern-llm.org/status/</a> 你可以实时看到，我们 draft + decode 接近打满硬件的带宽，以及 ssd 加持下，如此高的 hit ratio。重要的不是数字，而是离极限有多远。</p><div class="q"><b>susun</b> <span>@SuJinYan123</span><p>换新模型了，继续免费用：
+eMudhra 证书刚爆出的时候，我就只想到 sniff 了一下投影仪的网络请求，怎么就没有敏锐地意识到 Tesla FSD 也已是囊中之物了呢！😱</p><div class="q"><b>Oasis Feng</b> <span>@oasisfeng</span><p>@HuangXemee 我在 2019 年就订购的 FSD，中国内地依然还是镜花水月……
+
+现在不仅 FSD 没影儿，连 6 年前都已经用上的 EAP 反倒还被废了。</p></div><p class="ft"><a href="https://x.com/oasisfeng/status/2124779389938450679" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t20"><div class="hd"><img class="av" src="av/skywt2003.jpg" alt="" width="36" height="36" loading="lazy"><div><b>SkyWT</b> <span>@skywt2003</span><br><span>11月23日 17:47，赞 15</span></div></div><p class="tx">首屏性能优化的奇技淫巧：
+
+小红书网页版是 SSR 的。为了让这个 app 首屏更快，我直接先用缓存的 cookie 预发一次请求，单独写了个 parser 从 HTML 解析第一波帖子图片文字（来不及等 Webview 初始化了）。
+
+这种方式让首屏提前了 1.5 秒左右。</p><div class="q"><b>SkyWT</b> <span>@skywt2003</span><p>一不做二不休，直接基于 Web 获取数据，把整个页面用 native 重制了。
+
+即将推出，小红书 iOS native 版 🤣</p></div><p class="ft"><a href="https://x.com/skywt2003/status/2124787001157447914" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t28"><div class="hd"><img class="av" src="av/oldj.jpg" alt="" width="36" height="36" loading="lazy"><div><b>oldj</b> <span>@oldj</span><br><span>11月23日 16:04，赞 12</span></div></div><p class="tx">N 年前捐赠支持过 Synergy，一个能用一套鼠标键盘控制多台电脑的工具，当时它还是一款免费软件，没想到这么多年了它一直在更新，而且每次发了新的大版本都会给我发 license，让我可以免费升级，虽然我暂时没有相关需求了。喜欢这个团队。❤️</p><p class="ft"><a href="https://x.com/oldj/status/2124761071374553313" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t40"><div class="hd"><img class="av" src="av/yifielu27988.jpg" alt="" width="36" height="36" loading="lazy"><div><b>yifeilu</b> <span>@yifielu27988</span><br><span>11月23日 17:58，赞 12</span></div></div><p class="tx">逆天ISCC线下赛为了防ai，直接不让你用mac电脑，nb，头一次见到</p><a class="mw" href="https://x.com/yifielu27988/status/2124789611142803736" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXzE4wqbIAAtqPD.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/yifielu27988/status/2124789611142803736" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t49"><div class="hd"><img class="av" src="av/SuJinYan123.jpg" alt="" width="36" height="36" loading="lazy"><div><b>susun</b> <span>@SuJinYan123</span><br><span>11月23日 17:59，赞 12</span></div></div><p class="tx"><a href="https://api.kern-llm.org/status/" target="_blank" rel="noopener">https://api.kern-llm.org/status/</a> 你可以实时看到，我们 draft + decode 接近打满硬件的带宽，以及 ssd 加持下，如此高的 hit ratio。重要的不是数字，而是离极限有多远。</p><div class="q"><b>susun</b> <span>@SuJinYan123</span><p>换新模型了，继续免费用：
 
     基础 URL：<a href="https://api.kern-llm.org/v1" target="_blank" rel="noopener">https://api.kern-llm.org/v1</a>
     API 密钥：sk-kern-5vi93pdFZrDi7ofBlo-7l5DaH5BPJ3VjUeKNa_XGeqU
     模型：thinkingmachines/inkling-2-mini
-    GPU：还是我的单张 RTX PRO 5000 72GB
+    G</p></div><a class="mw" href="https://x.com/SuJinYan123/status/2124789801710965057" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXzFAoKbgAA9Dp-.png" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/SuJinYan123/status/2124789801710965057" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t32"><div class="hd"><img class="av" src="av/landiantech.jpg" alt="" width="36" height="36" loading="lazy"><div><b>蓝点网</b> <span>@landiantech</span><br><span>11月23日 13:36，赞 8</span></div></div><p class="tx">微软展示 RDMA over USB4 连接多台 Windows 11 PC，让 AI 模型在多台设备之间共同运行。
 
-    启用了自带的 DSpark 投机解码，低并发单用户 220–270 tok/s（写代码能到 270+），8 并发下也有 ~100 tok/s。支持 1M 上下文， 1TB SSD KV cache
-    也开上了</p></div><a class="mw" href="https://x.com/SuJinYan123/status/2124789801710965057" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXzFAoKbgAA9Dp-.png" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/SuJinYan123/status/2124789801710965057" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t50"><div class="hd"><img class="av" src="av/eastwoodnet.jpg" alt="" width="36" height="36" loading="lazy"><div><b>eastwood.net</b> <span>@eastwoodnet</span><br><span>11月22日 22:08，赞 2</span></div></div><p class="tx">用了10年的键盘了。让AI把QMK-VIA固件改上去了，并且加了一些RGB灯效。</p><a class="mw" href="https://x.com/eastwoodnet/status/2124490172247224715" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXuzfYXbIAEKU0q.png" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/eastwoodnet/status/2124490172247224715" target="_blank" rel="noopener">在 X 上打开</a></p></li></ul>
+RDMA 指的是远程直接内存访问，而通过 USB4 链路可以直接绕过以太网 UDP 网络栈从而提高性能。
+
+微软展示的案例显示，3 台搭载 AMD RYZEN AI Max 处理器的迷你机，运行 4 位量化的 Qwen3-235B-A22B，每秒生成速度为 18.5 个 Token。
+
+以上为内容摘要，查看全文：<a href="https://ourl.co/128709" target="_blank" rel="noopener">https://ourl.co/128709</a></p><a class="mw" href="https://x.com/landiantech/status/2124723641766265274" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyI5H3aoAALgoY.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/landiantech/status/2124723641766265274" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t42"><div class="hd"><img class="av" src="av/xfgong.jpg" alt="" width="36" height="36" loading="lazy"><div><b>chris</b> <span>@xfgong</span><br><span>11月23日 11:11，赞 8</span></div></div><p class="tx">CubePod 架构上选择依赖 K8s, 那么就意味着沙盒的无预热池冷启动 Benchmark 怎么也跑不过原生 E2B，这是性能和生态的取舍。只有一个指标可能会超过 E2B，就是 resume 容器睡醒 P99 时间,  这是因为如果 E2B 跨节点恢复的流程和时间会远远超过 CubePod 的。</p><p class="ft"><a href="https://x.com/xfgong/status/2124687367160373326" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t30"><div class="hd"><img class="av" src="av/st7evechou.jpg" alt="" width="36" height="36" loading="lazy"><div><b>𝗦𝘁𝗲𝘃𝗲 𝕏</b> <span>@st7evechou</span><br><span>11月23日 14:34，赞 7</span></div></div><p class="tx">豆包输入法也推出了语音免跳转这个功能。
+
+以上推文是在豆包输入法免跳转语音，上面由语音转文字生成。</p><a class="mw" href="https://x.com/st7evechou/status/2124738252632711527" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyVUjha8AAducT.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/st7evechou/status/2124738252632711527" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t39"><div class="hd"><img class="av" src="av/moritalous.png" alt="" width="36" height="36" loading="lazy"><div><b>moritalous</b> <span>@moritalous</span><br><span>11月23日 18:31，赞 7</span></div></div><p class="tx">技術書典オンラインマーケットでササキですの「生成AI時代のクレデンシャルとパーミッション設計 — Claude Code を起点に」を購入しました！ #技術書典 #技術書典で刺さった本 <a href="https://techbookfest.org/product/5BGFVMv99EEKJcfsJKkMeN?utm_source=twitter&amp;utm_medium=social&amp;utm_campaign=bought" target="_blank" rel="noopener">https://techbookfest.org/product/5BGFVMv99EEKJcfsJKkMeN?utm_…</a></p><p class="ft"><a href="https://x.com/moritalous/status/2124797950509682826" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t27"><div class="hd"><img class="av" src="av/turingbook.jpg" alt="" width="36" height="36" loading="lazy"><div><b>刘江</b> <span>@turingbook</span><br><span>11月23日 19:07，赞 6</span></div></div><p class="tx">但两个Scheme其实没啥关系。Scheme语言最开始叫Schemer（“阴谋家/计划者”），为了延续其前辈语言 Planner（计划者）和 Conniver（共谋者）的命名传统。但当时底层操作系统（ITS）的文件名最多只能有 6 个字符，所以文件名只好都是scheme，久而久之，语言名字也改了……</p><div class="q"><b>灰狐</b> <span>@huihoo</span><p>冷知识： 
+
+Scheme 是 Lisp 的一种方言
+同时 概形（Scheme）是代数几何中的一个基本概念
+
+共同的审美，极简与抽象
+一个重构了计算逻辑，一个重构了空间与数的本质</p></div><p class="ft"><a href="https://x.com/turingbook/status/2124806985464045709" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t34"><div class="hd"><img class="av" src="av/yicaichina.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Yicai 第一财经</b> <span>@yicaichina</span><br><span>11月23日 17:56，赞 2</span></div></div><p class="tx">Chinese LLMs Rank First in Call Volume on OpenRouter for 30th Straight Week <a href="https://buff.ly/cH1992Y" target="_blank" rel="noopener">https://buff.ly/cH1992Y</a></p><p class="ft"><a href="https://x.com/yicaichina/status/2124789105980486059" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t50"><div class="hd"><img class="av" src="av/eastwoodnet.jpg" alt="" width="36" height="36" loading="lazy"><div><b>eastwood.net</b> <span>@eastwoodnet</span><br><span>11月22日 22:08，赞 2</span></div></div><p class="tx">用了10年的键盘了。让AI把QMK-VIA固件改上去了，并且加了一些RGB灯效。</p><a class="mw" href="https://x.com/eastwoodnet/status/2124490172247224715" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXuzfYXbIAEKU0q.png" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/eastwoodnet/status/2124490172247224715" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t19"><div class="hd"><img class="av" src="av/plattypuus.jpg" alt="" width="36" height="36" loading="lazy"><div><b>タイド</b> <span>@plattypuus</span><br><span>11月23日 18:13，赞 1</span></div></div><p class="tx">OpenAI APIの実装を、説明だけでなく動く例で試す。
+
+OpenAI CookbookはAPIの一般的な作業向けのcode exampleとguide集。多くはPythonで、実行にはOpenAI accountとAPI keyが必要です。完成品ではなく、用途に合わせて組み立てる出発点。
+
+<a href="https://github.com/openai/openai-cookbook" target="_blank" rel="noopener">https://github.com/openai/openai-cookbook</a></p><p class="ft"><a href="https://x.com/plattypuus/status/2124793329011261777" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t26"><div class="hd"><img class="av" src="av/Techmeme.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Techmeme</b> <span>@Techmeme</span><br><span>11月23日 18:05，赞 1</span></div></div><p class="tx">A look at AECJ, an Amazon employee group with over 1,000 members that is stepping up efforts to slow Amazon&#x27;s data center expansion and spark debate over AI use (@rafeuddin_ / Financial Times)
+
+(Visit Techmeme dot com for the link and full context!)</p><p class="ft"><a href="https://x.com/Techmeme/status/2124791538517721306" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t48"><div class="hd"><img class="av" src="av/axeptio_eu.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Axeptio</b> <span>@axeptio_eu</span><br><span>11月23日 19:00，赞 1</span></div></div><p class="tx">We’re opening Axeptio to AI agents. Our MCP connector gives Claude, ChatGPT, Mistral Vibe and other compatible assistants 130+ actions in our CMP, from banner design to analytics and migrations. Now in beta. 
+➡️ Full announcement: <a href="https://hubs.ly/Q04FW9120" target="_blank" rel="noopener">https://hubs.ly/Q04FW9120</a></p><a class="mw" href="https://x.com/axeptio_eu/status/2124805200686784816" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/ext_tw_video_thumb/2124805156151717888/pu/img/dDSV-oSld8gHLIpI.jpg" alt="" loading="lazy"><span class="mk">视频</span></a><p class="ft"><a href="https://x.com/axeptio_eu/status/2124805200686784816" target="_blank" rel="noopener">在 X 上打开</a></p></li></ul>
 </section>
 <section class="sec"><h2 class="sh">游戏</h2>
 <ul class="tweets"><li class="tw" id="t51"><div class="hd"><img class="av" src="av/necopunch_momo.jpg" alt="" width="36" height="36" loading="lazy"><div><b>ガジェ毒</b> <span>@necopunch_momo</span><br><span>11月23日 10:01，赞 46</span></div></div><p class="tx">私がSwitch 2を選んだ理由
@@ -303,70 +285,16 @@ Great to see a new US House report recogniz</p></div><p class="ft"><a href="http
 ・バッテリー搭載でスリープ運用に適している
 
 一方で画面とジョイコンは不要かなぁ
-プロコンが良いのでジョイコン非搭載で構わないｗ</p><p class="ft"><a href="https://x.com/necopunch_momo/status/2124669680703152350" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t52"><div class="hd"><img class="av" src="av/BetterGamingYT.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Better Gaming</b> <span>@BetterGamingYT</span><br><span>11月23日 19:28，赞 9</span></div></div><p class="tx">now black ops 2 zombies running natively on my switch 2 🔥</p><a class="mw" href="https://x.com/BetterGamingYT/status/2124812357985599991" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/amplify_video_thumb/2124812286447546369/img/U1Sh8EEzfvpdiagS.jpg" alt="" loading="lazy"><span class="mk">视频</span></a><p class="ft"><a href="https://x.com/BetterGamingYT/status/2124812357985599991" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t53"><div class="hd"><img class="av" src="av/surfox15.jpg" alt="" width="36" height="36" loading="lazy"><div><b>さーふぉっくす</b> <span>@surfox15</span><br><span>11月23日 19:09，赞 38</span></div></div><p class="tx">3DS で iOS 4 を動かして iPod touch 化してみた！！
-この前の Android3DS も衝撃的だったけど『iOS3DS』はクローズドな iOS を移植してるわけだから凄い通り越してやばいww</p><a class="mw" href="https://x.com/surfox15/status/2124807658981282168" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/amplify_video_thumb/2124807537539293184/img/_eVJn4H80fE2vOy-.jpg" alt="" loading="lazy"><span class="mk">视频</span></a><p class="ft"><a href="https://x.com/surfox15/status/2124807658981282168" target="_blank" rel="noopener">在 X 上打开</a></p></li></ul>
+プロコンが良いのでジョイコン非搭載で構わないｗ</p><p class="ft"><a href="https://x.com/necopunch_momo/status/2124669680703152350" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t53"><div class="hd"><img class="av" src="av/surfox15.jpg" alt="" width="36" height="36" loading="lazy"><div><b>さーふぉっくす</b> <span>@surfox15</span><br><span>11月23日 19:09，赞 38</span></div></div><p class="tx">3DS で iOS 4 を動かして iPod touch 化してみた！！
+この前の Android3DS も衝撃的だったけど『iOS3DS』はクローズドな iOS を移植してるわけだから凄い通り越してやばいww</p><a class="mw" href="https://x.com/surfox15/status/2124807658981282168" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/amplify_video_thumb/2124807537539293184/img/_eVJn4H80fE2vOy-.jpg" alt="" loading="lazy"><span class="mk">视频</span></a><p class="ft"><a href="https://x.com/surfox15/status/2124807658981282168" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t52"><div class="hd"><img class="av" src="av/BetterGamingYT.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Better Gaming</b> <span>@BetterGamingYT</span><br><span>11月23日 19:28，赞 9</span></div></div><p class="tx">now black ops 2 zombies running natively on my switch 2 🔥</p><a class="mw" href="https://x.com/BetterGamingYT/status/2124812357985599991" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/amplify_video_thumb/2124812286447546369/img/U1Sh8EEzfvpdiagS.jpg" alt="" loading="lazy"><span class="mk">视频</span></a><p class="ft"><a href="https://x.com/BetterGamingYT/status/2124812357985599991" target="_blank" rel="noopener">在 X 上打开</a></p></li></ul>
 </section>
 <section class="sec"><h2 class="sh">钱和房产</h2>
-<ul class="tweets"><li class="tw" id="t54"><div class="hd"><img class="av" src="av/Yuto__Nakamura.jpg" alt="" width="36" height="36" loading="lazy"><div><b>飲食店×SaaSの社長</b> <span>@Yuto__Nakamura</span><br><span>11月23日 14:59，赞 121</span></div></div><p class="tx">当社の高級寿司は全店舗キャッシュレス決済だが、1店舗年間2億売ると、手数料2.5%だとしても年間500万円、月々40万を超える。レジ締め、両替、銀行への入金、経理作業が煩雑になるコスト、盗難の頻度などを考慮しても余りにも高過ぎるため、現金決済の導入を切実に検討している。
-
-3割現金決済になるだけで、年間数千万利益に直結するから、切実に迷ってる。</p><div class="q"><b>ゆる麻布</b> <span>@yuruazabu</span><p>キャッシュレスを否定する奴に、まともな奴はおらん。安売りが好きな店のオーナーは手数料を嫌がるが、その程度の手数料すら払えないビジネスなら、廃業した方がいいんだわ。それに、現金の管理コストは想像以上に高い。そこを考えられない情弱が多いのよ。
-
-レジ締め、両替、銀行への入金。
-
-現金を扱うだけで、毎日けっこうな時間が消えていく。
-
-数え間違いや盗難の心配もついてくる。
-
-手数料の数字だけ見て損だと思う人は、見えないコストを見てないんだよ。
-
-目に見える出費より、見えない手間の方が高くつくぞ。</p></div><p class="ft"><a href="https://x.com/Yuto__Nakamura/status/2124744588795716040" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t55"><div class="hd"><img class="av" src="av/321mitaga.jpg" alt="" width="36" height="36" loading="lazy"><div><b>築古不動産</b> <span>@321mitaga</span><br><span>11月23日 18:29，赞 20</span></div></div><p class="tx">所得1億円超、10年で倍増、3万8千人に
-うわー、格差拡大
-ちなみに、この層は高級賃貸が多いと思う</p><p class="ft"><a href="https://x.com/321mitaga/status/2124797374266781931" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t56"><div class="hd"><img class="av" src="av/yukichina7.jpg" alt="" width="36" height="36" loading="lazy"><div><b>エンマち</b> <span>@yukichina7</span><br><span>11月23日 15:09，赞 38</span></div></div><p class="tx">【コストコ倉庫店のブラックフライデー⚡】
-11/23からチェックしたいお得商品をまとめました。Apple製品やBOSEのヘッドホンが安くなっています🔥
-
-エグゼクティブ会員なら、コストコクレカで支払うと最大3.5％還元でさらにお得に！
-
-✅お得ランキング
-🥇 Apple Watch Series 12 42mm ブラック
-セール価格 59,980円
-相場 61,000円
-差額 ＋1,020円
-
-🥈 Apple Watch Series 12 42mm ゴールド／ブロンズ
-セール価格 59,980円
-相場 60,500円
-差額 ＋520円
-
-🥉 AirPods Pro 3
-セール価格 33,680円
-相場 34,000円
-差額 ＋320円
-
-🏅 4位 BOSE QuietComfort Ultra 第1世代 ブラック
-セール価格 29,800円
-相場 28,000円
-差額 −1,800円
-
-🏅 5位 Apple Watch Series 12 46mm GPS 3色
-セール価格 68,780円
-相場 66,800円
-差額 −1,980円
-
-詳細↓
-<a href="https://cds2.costcojapan.jp/cds/mail-images/upz/261122_120n/sun22d/pc_index.html" target="_blank" rel="noopener">https://cds2.costcojapan.jp/cds/mail-images/upz/261122_120n/…</a>
-
-※コストコのメルマガに登録しておくと、お得な情報をいち早くチェックできます↓…</p><a class="mw" href="https://x.com/yukichina7/status/2124747064391389445" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyd6PFasAArrWn.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/yukichina7/status/2124747064391389445" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t57"><div class="hd"><img class="av" src="av/saburousanfx.jpg" alt="" width="36" height="36" loading="lazy"><div><b>さぶ</b> <span>@saburousanfx</span><br><span>11月23日 16:05，赞 309</span></div></div><p class="tx">大企業にお勤めの皆さんは知らないかもしれないけど、自社グループの健保がない会社って結構あるんですよね。その場合は業界健保があるか、それもなければ協会けんぽ。協会けんぽの保険料率は10％前後と割高で、大企業グループの優良健保は8％前後だったりするよ。低いとこはもっと低い。グループ健保でも優良じゃないとこはもっと高い。
-
-例えば額面年収1000万の人だと、どちらの健保かで年間手取りが10万円近く変わることもある。さらにグループ健保だと労使折半が五分五分じゃなく従業員負担を軽くしてるところもあり、差がもっと開く。協会けんぽは独自給付がないのも特徴で、いざという時の負担軽減がイマイチ。
-
-健保は構成員の収入が高いほど料率が低く設定される。福利厚生としてあまり見られないけど、実際かなりの経済的な差があるので、転職するときは確認してみるといいと思う。大企業グループでも、一定の給与水準にない関係会社は自社健保に入れず協会けんぽにしているケースもあったりする。この辺は企業のポリシーによる。</p><p class="ft"><a href="https://x.com/saburousanfx/status/2124761301247545705" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t58"><div class="hd"><img class="av" src="av/ashita01x.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Ash</b> <span>@ashita01x</span><br><span>11月23日 19:14，赞 11</span></div></div><p class="tx">ふと流れてきた。不動産市況が荒れていて辛いが、20代で大した与信もないけどローンが組める属性で本当に良かったと思う。本当に辛い時に使うのは当たり前だが、安易に適応障害診断を貰うのは本当に危険。</p><div class="q"><b>🪅つらこ🍭</b> <span>@jinse_owaco</span><p>やっぱりローン組めなくなるのか
-#mond_jinse_owaco
-<a href="https://mond.how/topics/1ws2blr1xkxa39v/xgstozrj4vbgx5m?lang=ja" target="_blank" rel="noopener">https://mond.how/topics/1ws2blr1xkxa39v/xgstozrj4vbgx5m?lang…</a></p></div><p class="ft"><a href="https://x.com/ashita01x/status/2124808744244859182" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t59"><div class="hd"><img class="av" src="av/Reuters.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Reuters</b> <span>@Reuters</span><br><span>11月23日 19:20，赞 7</span></div></div><p class="tx">Financials drag Indian shares down on profit-taking after four-week rally <a href="https://reut.rs/4j8RKLE" target="_blank" rel="noopener">https://reut.rs/4j8RKLE</a></p><p class="ft"><a href="https://x.com/Reuters/status/2124810223726502011" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t60"><div class="hd"><img class="av" src="av/yama3619.jpg" alt="" width="36" height="36" loading="lazy"><div><b>ハチ</b> <span>@yama3619</span><br><span>11月23日 12:03，赞 4,576</span></div></div><p class="tx">だから「新富裕層」ってなんだよ、車持ってるだけで富裕層扱いってどんな国だよ。
+<ul class="tweets"><li class="tw" id="t60"><div class="hd"><img class="av" src="av/yama3619.jpg" alt="" width="36" height="36" loading="lazy"><div><b>ハチ</b> <span>@yama3619</span><br><span>11月23日 12:03，赞 4,576</span></div></div><p class="tx">だから「新富裕層」ってなんだよ、車持ってるだけで富裕層扱いってどんな国だよ。
 
 また中間層に課税しようとして謎の概念を生み出している。</p><div class="q"><b>日本経済新聞 電子版（日経電子版）</b> <span>@nikkei</span><p>「若者のクルマ離れ」新富裕層には関係なし？
 <a href="https://www.nikkei.com/article/DGXZQOUC197UR0Z11C26A1000000/?n_cid=SNSTW005&amp;n_tw=1795342094" target="_blank" rel="noopener">https://www.nikkei.com/article/DGXZQOUC197UR0Z11C26A1000000/…</a>
 
-20～30代の世帯年収3000万円以上では32％が車にお金をかけると回答（若年層全体では13％）。従来の世代間での価値観差が新富裕層には当てはまらないことが分かってきました。</p></div><p class="ft"><a href="https://x.com/yama3619/status/2124700350020211090" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t61"><div class="hd"><img class="av" src="av/SOU_BTC.png" alt="" width="36" height="36" loading="lazy"><div><b>SOU</b> <span>@SOU_BTC</span><br><span>11月23日 16:37，赞 823</span></div></div><p class="tx">【速報】🇺🇸 米国株先物、半導体関連が急反発
+20～30代の世帯年収3000万円以上では32％が車にお金をかけると回答（若年層全体では1</p></div><p class="ft"><a href="https://x.com/yama3619/status/2124700350020211090" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t61"><div class="hd"><img class="av" src="av/SOU_BTC.png" alt="" width="36" height="36" loading="lazy"><div><b>SOU</b> <span>@SOU_BTC</span><br><span>11月23日 16:37，赞 823</span></div></div><p class="tx">【速報】🇺🇸 米国株先物、半導体関連が急反発
 
 先週の大暴落から一転、Hyperliquidの先物価格が上昇。
 
@@ -374,11 +302,9 @@ Great to see a new US House report recogniz</p></div><p class="ft"><a href="http
 ・NVIDIA：+7.34%
 ・AMD：+5.74%
 
-今夜の米国市場開場を前に、半導体関連が大幅高。</p><a class="mw" href="https://x.com/SOU_BTC/status/2124769331280216511" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyyS8UbAAEnA82.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/SOU_BTC/status/2124769331280216511" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t62"><div class="hd"><img class="av" src="av/shukatsu_house.jpg" alt="" width="36" height="36" loading="lazy"><div><b>デベ就活研究所</b> <span>@shukatsu_house</span><br><span>11月23日 18:00，赞 23</span></div></div><p class="tx">三菱地所による東京駅ジャック！！見に行かないと！
+今夜の米国市場開場を前に、半導体関連が大幅高。</p><a class="mw" href="https://x.com/SOU_BTC/status/2124769331280216511" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyyS8UbAAEnA82.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/SOU_BTC/status/2124769331280216511" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t70"><div class="hd"><img class="av" src="av/WatcherGuru.png" alt="" width="36" height="36" loading="lazy"><div><b>Watcher Guru</b> <span>@WatcherGuru</span><br><span>11月23日 19:31，赞 720</span></div></div><p class="tx">JUST IN: 🇰🇷 South Korea to release draft of comprehensive crypto laws this week.</p><p class="ft"><a href="https://x.com/WatcherGuru/status/2124813074020626821" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t57"><div class="hd"><img class="av" src="av/saburousanfx.jpg" alt="" width="36" height="36" loading="lazy"><div><b>さぶ</b> <span>@saburousanfx</span><br><span>11月23日 16:05，赞 309</span></div></div><p class="tx">大企業にお勤めの皆さんは知らないかもしれないけど、自社グループの健保がない会社って結構あるんですよね。その場合は業界健保があるか、それもなければ協会けんぽ。協会けんぽの保険料率は10％前後と割高で、大企業グループの優良健保は8％前後だったりするよ。低いとこはもっと低い。グループ健保でも優良じゃないとこはもっと高い。
 
-&amp;gt;&amp;gt;三菱地所が街ごと広告プラン、東京駅前ジャックは週7500万円
-
-<a href="https://www.nikkei.com/article/DGXZQOUC20AA00Q6A121C2000000/" target="_blank" rel="noopener">https://www.nikkei.com/article/DGXZQOUC20AA00Q6A121C2000000/</a></p><p class="ft"><a href="https://x.com/shukatsu_house/status/2124790061862391990" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t63"><div class="hd"><img class="av" src="av/Reuters.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Reuters</b> <span>@Reuters</span><br><span>11月23日 16:20，赞 22</span></div></div><p class="tx">Rupee retreats, Goldman calls it a &#x27;port of stability&#x27; in AI storm <a href="https://reut.rs/4j6Nw7s" target="_blank" rel="noopener">https://reut.rs/4j6Nw7s</a></p><p class="ft"><a href="https://x.com/Reuters/status/2124764930645627075" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t64"><div class="hd"><img class="av" src="av/chimolog7.jpg" alt="" width="36" height="36" loading="lazy"><div><b>やっぱもちです。</b> <span>@chimolog7</span><br><span>11月23日 16:40，赞 164</span></div></div><p class="tx">🙄
+例えば額面年収1000万の人だと、どちらの健保かで年間手取りが10万円近く変わることもある。さらにグループ健保だと労使折半が五分五分じゃなく従業員負担を軽くしてるところもあり、差がもっと開く。協会けんぽは独自給付がないのも特徴で、いざという…</p><p class="ft"><a href="https://x.com/saburousanfx/status/2124761301247545705" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t64"><div class="hd"><img class="av" src="av/chimolog7.jpg" alt="" width="36" height="36" loading="lazy"><div><b>やっぱもちです。</b> <span>@chimolog7</span><br><span>11月23日 16:40，赞 164</span></div></div><p class="tx">🙄
 世知辛い
 DDR5メモリはせめて1GB = 1000円に値下がりしてほしい</p><div class="q"><b>パソコン工房秋葉原パーツ館</b> <span>@PK_akibahonten</span><p>【大容量メモリー】
 Crucial
@@ -387,7 +313,34 @@ DDR5-5600
 96GBキット（48GBx 2枚）
 販売価格：319,980円
 昨今のメモリー価格高騰に加え市場的に64GBモジュールの入手性も絶望的、しかしAIを始めとかくメモリー容量を問われるニーズは増える一方ですので今の内に確保もご検討下さい。
-#DDR5 #Crucial #Micron</p></div><a class="mw" href="https://x.com/chimolog7/status/2124770152306917674" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyy7EybEAAZHAO.png" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/chimolog7/status/2124770152306917674" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t65"><div class="hd"><img class="av" src="av/Reuters.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Reuters</b> <span>@Reuters</span><br><span>11月23日 19:00，赞 41</span></div></div><p class="tx">Oil slips with Mideast flows in focus <a href="https://reut.rs/3XIt1Xm" target="_blank" rel="noopener">https://reut.rs/3XIt1Xm</a></p><p class="ft"><a href="https://x.com/Reuters/status/2124805233725284770" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t66"><div class="hd"><img class="av" src="av/samotoku.jpg" alt="" width="36" height="36" loading="lazy"><div><b>サム</b> <span>@samotoku</span><br><span>11月23日 08:53，赞 79</span></div></div><p class="tx">ドコモ契約者へ。12/1から旧プランが最大月550円の値上げ。
+#DDR5 </p></div><a class="mw" href="https://x.com/chimolog7/status/2124770152306917674" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyy7EybEAAZHAO.png" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/chimolog7/status/2124770152306917674" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t69"><div class="hd"><img class="av" src="av/NakamuraMilei.jpg" alt="" width="36" height="36" loading="lazy"><div><b>中村ミレイ</b> <span>@NakamuraMilei</span><br><span>11月23日 17:46，赞 125</span></div></div><p class="tx">先日、ある経営者の方とお話ししました。『そろそろシンガポールに本気で軸足を移す』と。理由を伺うと、2027年からの金融所得課税最大35%への引き上げが決め手だったそうです。
+
+こうした話は、もはや珍しくありません。金融所得への重課は、資産を自由に動かせる人から順に国外へ押し出していく仕組みです。彼らが抜けた後、税収の穴は誰が埋めるのでしょうか。答えは単純で、移住という選択肢を持たない中間層です。『富裕層増税』と銘打たれた制度が、巡り巡って普通の勤め人の社会保険料や消費税の引き上げとして返ってくる。この順番は、歴史的にほぼ例外がありません。
+
+税は逃げられ…</p><p class="ft"><a href="https://x.com/NakamuraMilei/status/2124786531168669832" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t54"><div class="hd"><img class="av" src="av/Yuto__Nakamura.jpg" alt="" width="36" height="36" loading="lazy"><div><b>飲食店×SaaSの社長</b> <span>@Yuto__Nakamura</span><br><span>11月23日 14:59，赞 121</span></div></div><p class="tx">当社の高級寿司は全店舗キャッシュレス決済だが、1店舗年間2億売ると、手数料2.5%だとしても年間500万円、月々40万を超える。レジ締め、両替、銀行への入金、経理作業が煩雑になるコスト、盗難の頻度などを考慮しても余りにも高過ぎるため、現金決済の導入を切実に検討している。
+
+3割現金決済になるだけで、年間数千万利益に直結するから、切実に迷ってる。</p><div class="q"><b>ゆる麻布</b> <span>@yuruazabu</span><p>キャッシュレスを否定する奴に、まともな奴はおらん。安売りが好きな店のオーナーは手数料を嫌がるが、その程度の手数料すら払えないビジネスなら、廃業した方がいいんだわ。それに、現金の管理コストは想像以上に高い。そこを考えられない情弱が多いのよ。
+
+レジ締め、両替、銀行への入金。
+
+現金を扱うだけで、毎日けっこうな時間が消えて</p></div><p class="ft"><a href="https://x.com/Yuto__Nakamura/status/2124744588795716040" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t68"><div class="hd"><img class="av" src="av/e986MwvzKv95614.jpg" alt="" width="36" height="36" loading="lazy"><div><b>ラビットちゃん</b> <span>@e986MwvzKv95614</span><br><span>11月23日 17:11，赞 114</span></div></div><p class="tx">家賃15万円のマンションに住んで、自己負担はたった3万円。
+
+残りの12万円は会社が払ってくれるらしい。
+
+さらに車のローンの利子まで会社負担。
+
+こんな世界があるんですね。
+
+一方で、家賃補助がほとんどない会社もあれば、福利厚生の対象が限られている非正規社員もいる。
+
+同じように毎日働いていても、勤め先によって生活水準がここまで変わる。
+
+しかも、給与明細に載る年収だけでは、この差が見えにくい。
+
+福利厚生が充実している会社を批判したいわけではありません。むしろ素晴らしいことです。
+
+でも、働く人の待遇を考えるとき、年収だけを比較していては実態を見誤る…</p><div class="q"><b>Yahoo!ニュース</b> <span>@YahooNewsTopics</span><p>【福利厚生フル活用「ガチ勢」生活】
+<a href="https://news.yahoo.co.jp/pickup/6603669" target="_blank" rel="noopener">https://news.yahoo.co.jp/pickup/6603669</a></p></div><p class="ft"><a href="https://x.com/e986MwvzKv95614/status/2124777812049690889" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t66"><div class="hd"><img class="av" src="av/samotoku.jpg" alt="" width="36" height="36" loading="lazy"><div><b>サム</b> <span>@samotoku</span><br><span>11月23日 08:53，赞 79</span></div></div><p class="tx">ドコモ契約者へ。12/1から旧プランが最大月550円の値上げ。
 手続き不要で既存契約者も自動適用です。
 
 eximo +550円（年6,600円）
@@ -404,58 +357,7 @@ ahamoは大盛りオプションが11/30で終了、40GB以下3,135円・60GB以
 
 eximoなら月550円上がって、1年で6,600円です
 
-さらにやばいのが↓</p></div><p class="ft"><a href="https://x.com/samotoku/status/2124652397410853078" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t67"><div class="hd"><img class="av" src="av/Reuters.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Reuters</b> <span>@Reuters</span><br><span>11月23日 19:10，赞 9</span></div></div><p class="tx">India&#x27;s Tata Steel moves to control APL Apollo with $1.67 billion stake buy, open offer <a href="https://reut.rs/3XpdrQm" target="_blank" rel="noopener">https://reut.rs/3XpdrQm</a></p><p class="ft"><a href="https://x.com/Reuters/status/2124807703457386566" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t68"><div class="hd"><img class="av" src="av/e986MwvzKv95614.jpg" alt="" width="36" height="36" loading="lazy"><div><b>ラビットちゃん</b> <span>@e986MwvzKv95614</span><br><span>11月23日 17:11，赞 114</span></div></div><p class="tx">家賃15万円のマンションに住んで、自己負担はたった3万円。
-
-残りの12万円は会社が払ってくれるらしい。
-
-さらに車のローンの利子まで会社負担。
-
-こんな世界があるんですね。
-
-一方で、家賃補助がほとんどない会社もあれば、福利厚生の対象が限られている非正規社員もいる。
-
-同じように毎日働いていても、勤め先によって生活水準がここまで変わる。
-
-しかも、給与明細に載る年収だけでは、この差が見えにくい。
-
-福利厚生が充実している会社を批判したいわけではありません。むしろ素晴らしいことです。
-
-でも、働く人の待遇を考えるとき、年収だけを比較していては実態を見誤ると思う。
-
-年収が高い人より、年収が低くても福利厚生が充実している人の方が、自由に使えるお金が多いことだってある。
-
-これ、もっと知られていい話だと思います。</p><div class="q"><b>Yahoo!ニュース</b> <span>@YahooNewsTopics</span><p>【福利厚生フル活用「ガチ勢」生活】
-<a href="https://news.yahoo.co.jp/pickup/6603669" target="_blank" rel="noopener">https://news.yahoo.co.jp/pickup/6603669</a></p></div><p class="ft"><a href="https://x.com/e986MwvzKv95614/status/2124777812049690889" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t69"><div class="hd"><img class="av" src="av/NakamuraMilei.jpg" alt="" width="36" height="36" loading="lazy"><div><b>中村ミレイ</b> <span>@NakamuraMilei</span><br><span>11月23日 17:46，赞 125</span></div></div><p class="tx">先日、ある経営者の方とお話ししました。『そろそろシンガポールに本気で軸足を移す』と。理由を伺うと、2027年からの金融所得課税最大35%への引き上げが決め手だったそうです。
-
-こうした話は、もはや珍しくありません。金融所得への重課は、資産を自由に動かせる人から順に国外へ押し出していく仕組みです。彼らが抜けた後、税収の穴は誰が埋めるのでしょうか。答えは単純で、移住という選択肢を持たない中間層です。『富裕層増税』と銘打たれた制度が、巡り巡って普通の勤め人の社会保険料や消費税の引き上げとして返ってくる。この順番は、歴史的にほぼ例外がありません。
-
-税は逃げられる者を追えず、逃げられない者に重くのしかかる。この性質を無視した『取れるところから取る』論は、結局自分の首を絞めることになるのではないでしょうか。</p><p class="ft"><a href="https://x.com/NakamuraMilei/status/2124786531168669832" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t70"><div class="hd"><img class="av" src="av/WatcherGuru.png" alt="" width="36" height="36" loading="lazy"><div><b>Watcher Guru</b> <span>@WatcherGuru</span><br><span>11月23日 19:31，赞 720</span></div></div><p class="tx">JUST IN: 🇰🇷 South Korea to release draft of comprehensive crypto laws this week.</p><p class="ft"><a href="https://x.com/WatcherGuru/status/2124813074020626821" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t71"><div class="hd"><img class="av" src="av/probiex007.jpg" alt="" width="36" height="36" loading="lazy"><div><b>probiex007</b> <span>@probiex007</span><br><span>11月23日 18:27，赞 1</span></div></div><p class="tx">Anthropic&#x27;s IPO numbers are difficult to ignore.
-
-The company says its November 20 closing included approximately $93.5 billion in gross IPO proceeds and another $26 billion private placement involving major technology and chip companies.
-
-But there&#x27;s a detail I&#x27;d pay attention to.
-
-An AI company&#x27;s infrastructure suppliers are also becoming its investors.
-
-That creates an interesting relationship between model demand, compute spending and the companies providing that compute.
-
-The business of AI is increasingly about infrastructure</p><p class="ft"><a href="https://x.com/probiex007/status/2124797094666113225" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t72"><div class="hd"><img class="av" src="av/mansion_Gmen.jpg" alt="" width="36" height="36" loading="lazy"><div><b>マンションGメン</b> <span>@mansion_Gmen</span><br><span>11月23日 16:23，赞 36</span></div></div><p class="tx">2024年のLIFULL HOME’Sの調査では、タワマンを売却した人が挙げた不満の上位は、
-
-①管理費が高い：32.3％
-②エレベーターの待ち時間：27.3％
-③日差しが強すぎる：19.3％
-
-また、昨今、タワマンから退去した著名人には、笑福亭鶴瓶、工藤公康、近藤春菜、山添寛、はじめしゃちょーなどがいます。</p><p class="ft"><a href="https://x.com/mansion_Gmen/status/2124765650988208409" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t73"><div class="hd"><img class="av" src="av/centurion_engnr.jpg" alt="" width="36" height="36" loading="lazy"><div><b>アメック星人</b> <span>@centurion_engnr</span><br><span>11月23日 18:31，赞 23</span></div></div><p class="tx">資産約24兆円（1480億ドル）のZARA創業者アマンシオ・オルテガ氏の資産管理会社が、シカゴの51階建てオフィスビル「One North Wacker」を先月、約880億円（5.5億ドル）で買ったようだ
-シカゴで1棟まるごとのオフィス取引としては、2015年以来の大きさになる
-
-オフィス不況の最中だが、このビルは約94%が賃貸済みで、PwCやUBSといった会計・金融の大手が入っている
-
-同じシカゴでは今年2月、ほぼ同じ広さのオフィスビルが約66億円（4100万ドル）で売られたばかりで、2018年の購入価格から9割近く下がった値段だったのだとか
-
-築年や立地の違いはあるにせよ、同じくらいの広さで値段は13倍ひらいたことになる
-オフィス不況の中でも、借り手で埋まったビルには大きなお金が動くようだ
-
-この規模の不動産をバンバン買ってみたいものですね</p><a class="mw" href="https://x.com/centurion_engnr/status/2124797871278956919" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXzMZ1TXUAAa12H.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/centurion_engnr/status/2124797871278956919" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t74"><div class="hd"><img class="av" src="av/nagamine_node.jpg" alt="" width="36" height="36" loading="lazy"><div><b>けい1号</b> <span>@nagamine_node</span><br><span>11月23日 14:51，赞 57</span></div></div><p class="tx">激安すぎる・・・1pass契約してたけど乗り換えられるってことで買いました！
+さらにやばいのが↓</p></div><p class="ft"><a href="https://x.com/samotoku/status/2124652397410853078" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t74"><div class="hd"><img class="av" src="av/nagamine_node.jpg" alt="" width="36" height="36" loading="lazy"><div><b>けい1号</b> <span>@nagamine_node</span><br><span>11月23日 14:51，赞 57</span></div></div><p class="tx">激安すぎる・・・1pass契約してたけど乗り換えられるってことで買いました！
 
 乗り換えについては、チャッピーに教えてもらいながら手続き進めたら、1passから自動メールきた。
 
@@ -467,18 +369,70 @@ The business of AI is increasingly about infrastructure</p><p class="ft"><a href
 AI Agent(Muse等）に色々触って欲しいけど…
 パスワードそのまま渡すのはチョット…
 
-そんなあなたに1Passwordなんです!!
+そんなあなたに</p></div><a class="mw" href="https://x.com/nagamine_node/status/2124742515115126980" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyZk7xasAAIVzx.png" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/nagamine_node/status/2124742515115126980" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t65"><div class="hd"><img class="av" src="av/Reuters.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Reuters</b> <span>@Reuters</span><br><span>11月23日 19:00，赞 41</span></div></div><p class="tx">Oil slips with Mideast flows in focus <a href="https://reut.rs/3XIt1Xm" target="_blank" rel="noopener">https://reut.rs/3XIt1Xm</a></p><p class="ft"><a href="https://x.com/Reuters/status/2124805233725284770" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t56"><div class="hd"><img class="av" src="av/yukichina7.jpg" alt="" width="36" height="36" loading="lazy"><div><b>エンマち</b> <span>@yukichina7</span><br><span>11月23日 15:09，赞 38</span></div></div><p class="tx">【コストコ倉庫店のブラックフライデー⚡】
+11/23からチェックしたいお得商品をまとめました。Apple製品やBOSEのヘッドホンが安くなっています🔥
 
-・パスワード使い回し卒業＆自動生成
-複雑なパスを勝手に作って保存してくれるから、もう頭使わなくてOK。
-しかも流出検知（Watchtower）で「このサイト漏洩したよ！」って即警告してくれるのが強すぎる。
+エグゼクティブ会員なら、コストコクレカで支払うと最大3.5％還元でさらにお得に！
 
-・フィッシング詐欺を鉄壁ブロック
-AI</p></div><a class="mw" href="https://x.com/nagamine_node/status/2124742515115126980" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyZk7xasAAIVzx.png" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/nagamine_node/status/2124742515115126980" target="_blank" rel="noopener">在 X 上打开</a></p></li></ul>
+✅お得ランキング
+🥇 Apple Watch Series 12 42mm ブラック
+セール価格 59,980円
+相場 61,000円
+差額 ＋1,020円
+
+🥈 Apple Watch Series 12 42mm ゴールド／ブロンズ
+セール価格 59,980円
+相場 60,500円
+差額 ＋520円
+
+🥉 AirPo…</p><a class="mw" href="https://x.com/yukichina7/status/2124747064391389445" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyd6PFasAArrWn.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/yukichina7/status/2124747064391389445" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t72"><div class="hd"><img class="av" src="av/mansion_Gmen.jpg" alt="" width="36" height="36" loading="lazy"><div><b>マンションGメン</b> <span>@mansion_Gmen</span><br><span>11月23日 16:23，赞 36</span></div></div><p class="tx">2024年のLIFULL HOME’Sの調査では、タワマンを売却した人が挙げた不満の上位は、
+
+①管理費が高い：32.3％
+②エレベーターの待ち時間：27.3％
+③日差しが強すぎる：19.3％
+
+また、昨今、タワマンから退去した著名人には、笑福亭鶴瓶、工藤公康、近藤春菜、山添寛、はじめしゃちょーなどがいます。</p><p class="ft"><a href="https://x.com/mansion_Gmen/status/2124765650988208409" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t62"><div class="hd"><img class="av" src="av/shukatsu_house.jpg" alt="" width="36" height="36" loading="lazy"><div><b>デベ就活研究所</b> <span>@shukatsu_house</span><br><span>11月23日 18:00，赞 23</span></div></div><p class="tx">三菱地所による東京駅ジャック！！見に行かないと！
+
+&amp;gt;&amp;gt;三菱地所が街ごと広告プラン、東京駅前ジャックは週7500万円
+
+<a href="https://www.nikkei.com/article/DGXZQOUC20AA00Q6A121C2000000/" target="_blank" rel="noopener">https://www.nikkei.com/article/DGXZQOUC20AA00Q6A121C2000000/</a></p><p class="ft"><a href="https://x.com/shukatsu_house/status/2124790061862391990" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t73"><div class="hd"><img class="av" src="av/centurion_engnr.jpg" alt="" width="36" height="36" loading="lazy"><div><b>アメック星人</b> <span>@centurion_engnr</span><br><span>11月23日 18:31，赞 23</span></div></div><p class="tx">資産約24兆円（1480億ドル）のZARA創業者アマンシオ・オルテガ氏の資産管理会社が、シカゴの51階建てオフィスビル「One North Wacker」を先月、約880億円（5.5億ドル）で買ったようだ
+シカゴで1棟まるごとのオフィス取引としては、2015年以来の大きさになる
+
+オフィス不況の最中だが、このビルは約94%が賃貸済みで、PwCやUBSといった会計・金融の大手が入っている
+
+同じシカゴでは今年2月、ほぼ同じ広さのオフィスビルが約66億円（4100万ドル）で売られたばかりで、2018年の購入価格から9割近く下がった値段だったのだとか
+
+築年や…</p><a class="mw" href="https://x.com/centurion_engnr/status/2124797871278956919" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXzMZ1TXUAAa12H.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/centurion_engnr/status/2124797871278956919" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t63"><div class="hd"><img class="av" src="av/Reuters.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Reuters</b> <span>@Reuters</span><br><span>11月23日 16:20，赞 22</span></div></div><p class="tx">Rupee retreats, Goldman calls it a &#x27;port of stability&#x27; in AI storm <a href="https://reut.rs/4j6Nw7s" target="_blank" rel="noopener">https://reut.rs/4j6Nw7s</a></p><p class="ft"><a href="https://x.com/Reuters/status/2124764930645627075" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t55"><div class="hd"><img class="av" src="av/321mitaga.jpg" alt="" width="36" height="36" loading="lazy"><div><b>築古不動産</b> <span>@321mitaga</span><br><span>11月23日 18:29，赞 20</span></div></div><p class="tx">所得1億円超、10年で倍増、3万8千人に
+うわー、格差拡大
+ちなみに、この層は高級賃貸が多いと思う</p><p class="ft"><a href="https://x.com/321mitaga/status/2124797374266781931" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t58"><div class="hd"><img class="av" src="av/ashita01x.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Ash</b> <span>@ashita01x</span><br><span>11月23日 19:14，赞 11</span></div></div><p class="tx">ふと流れてきた。不動産市況が荒れていて辛いが、20代で大した与信もないけどローンが組める属性で本当に良かったと思う。本当に辛い時に使うのは当たり前だが、安易に適応障害診断を貰うのは本当に危険。</p><div class="q"><b>🪅つらこ🍭</b> <span>@jinse_owaco</span><p>やっぱりローン組めなくなるのか
+#mond_jinse_owaco
+<a href="https://mond.how/topics/1ws2blr1xkxa39v/xgstozrj4vbgx5m?lang=ja" target="_blank" rel="noopener">https://mond.how/topics/1ws2blr1xkxa39v/xgstozrj4vbgx5m?lang…</a></p></div><p class="ft"><a href="https://x.com/ashita01x/status/2124808744244859182" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t67"><div class="hd"><img class="av" src="av/Reuters.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Reuters</b> <span>@Reuters</span><br><span>11月23日 19:10，赞 9</span></div></div><p class="tx">India&#x27;s Tata Steel moves to control APL Apollo with $1.67 billion stake buy, open offer <a href="https://reut.rs/3XpdrQm" target="_blank" rel="noopener">https://reut.rs/3XpdrQm</a></p><p class="ft"><a href="https://x.com/Reuters/status/2124807703457386566" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t59"><div class="hd"><img class="av" src="av/Reuters.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Reuters</b> <span>@Reuters</span><br><span>11月23日 19:20，赞 7</span></div></div><p class="tx">Financials drag Indian shares down on profit-taking after four-week rally <a href="https://reut.rs/4j8RKLE" target="_blank" rel="noopener">https://reut.rs/4j8RKLE</a></p><p class="ft"><a href="https://x.com/Reuters/status/2124810223726502011" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t71"><div class="hd"><img class="av" src="av/probiex007.jpg" alt="" width="36" height="36" loading="lazy"><div><b>probiex007</b> <span>@probiex007</span><br><span>11月23日 18:27，赞 1</span></div></div><p class="tx">Anthropic&#x27;s IPO numbers are difficult to ignore.
+
+The company says its November 20 closing included approximately $93.5 billion in gross IPO proceeds and another $26 billion private placement involving major technology and chip companies.
+
+But there&#x27;s a detail I&#x27;d pay attention t…</p><p class="ft"><a href="https://x.com/probiex007/status/2124797094666113225" target="_blank" rel="noopener">在 X 上看全文</a></p></li></ul>
 </section>
 <section class="sec"><h2 class="sh">生活</h2>
-<ul class="tweets"><li class="tw" id="t75"><div class="hd"><img class="av" src="av/JP01NP.jpg" alt="" width="36" height="36" loading="lazy"><div><b>朝日</b> <span>@JP01NP</span><br><span>11月22日 23:18，赞 3,556</span></div></div><p class="tx">｢旅館業法の定めにより2階で必ず止まります。｣
-そんな定めはないのですが⋯⋯。道か市の施行条例のほうかと思って確認したけどどれが根拠規程なのかわからなかった。</p><a class="mw" href="https://x.com/JP01NP/status/2124507814798442591" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXvEmGLbQAAoDW1.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/JP01NP/status/2124507814798442591" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t76"><div class="hd"><img class="av" src="av/jN7O0bDD1O49684.jpg" alt="" width="36" height="36" loading="lazy"><div><b>3時05分</b> <span>@jN7O0bDD1O49684</span><br><span>11月23日 07:39，赞 532</span></div></div><p class="tx">都営バス　新豊洲駅前停留所
+<ul class="tweets"><li class="tw" id="t83"><div class="hd"><img class="av" src="av/YahooNewsTopics.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Yahoo!ニュース</b> <span>@YahooNewsTopics</span><br><span>11月23日 16:36，赞 8,131</span></div></div><p class="tx">【気圧低下 24日は頭痛やめまい注意】
+<a href="https://news.yahoo.co.jp/pickup/6603682" target="_blank" rel="noopener">https://news.yahoo.co.jp/pickup/6603682</a></p><p class="ft"><a href="https://x.com/YahooNewsTopics/status/2124768914865520907" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t75"><div class="hd"><img class="av" src="av/JP01NP.jpg" alt="" width="36" height="36" loading="lazy"><div><b>朝日</b> <span>@JP01NP</span><br><span>11月22日 23:18，赞 3,556</span></div></div><p class="tx">｢旅館業法の定めにより2階で必ず止まります。｣
+そんな定めはないのですが⋯⋯。道か市の施行条例のほうかと思って確認したけどどれが根拠規程なのかわからなかった。</p><a class="mw" href="https://x.com/JP01NP/status/2124507814798442591" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXvEmGLbQAAoDW1.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/JP01NP/status/2124507814798442591" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t81"><div class="hd"><img class="av" src="av/nagoyaguragura.jpg" alt="" width="36" height="36" loading="lazy"><div><b>ぐらぐら</b> <span>@nagoyaguragura</span><br><span>11月23日 10:07，赞 1,300</span></div></div><p class="tx">業務連絡
+
+2027年度トヨタカレンダー確定
+
+GW 5/1-5.  5連休😇
+盆休8/7-15 9連休
+正月12/29-1/5 8連休
+
+3連休
+7/17-19
+9/18-20
+10/9-11
+1/8-10
+
+5/6-7を有休で9連休
+12/27-28を有休で12連休
+1/6-7有休でも12連休
+全部繋げると17連休</p><p class="ft"><a href="https://x.com/nagoyaguragura/status/2124671121887039765" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t76"><div class="hd"><img class="av" src="av/jN7O0bDD1O49684.jpg" alt="" width="36" height="36" loading="lazy"><div><b>3時05分</b> <span>@jN7O0bDD1O49684</span><br><span>11月23日 07:39，赞 532</span></div></div><p class="tx">都営バス　新豊洲駅前停留所
 
 昨晩19時からの都05-2東京駅行き
 19時台で1本乗車出来た以降、最終便(21時発)まで全便が満員通過だったそうです
@@ -490,16 +444,33 @@ AI</p></div><a class="mw" href="https://x.com/nagamine_node/status/2124742515115
 #新豊洲
 #江東区
 #東京都湾岸エリアの都営バス混雑問題
-#東京都交通局</p><a class="mw" href="https://x.com/jN7O0bDD1O49684/status/2124633834197246292" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXw3NQHb0AAy8Fa.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/jN7O0bDD1O49684/status/2124633834197246292" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t77"><div class="hd"><img class="av" src="av/FIRE_cat55.jpg" alt="" width="36" height="36" loading="lazy"><div><b>FIRE猫</b> <span>@FIRE_cat55</span><br><span>11月23日 15:46，赞 13</span></div></div><p class="tx">Q. なぜ湾岸には名門進学校がないのか？
+#東京都交通局</p><a class="mw" href="https://x.com/jN7O0bDD1O49684/status/2124633834197246292" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXw3NQHb0AAy8Fa.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/jN7O0bDD1O49684/status/2124633834197246292" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t85"><div class="hd"><img class="av" src="av/hiroyzero.jpg" alt="" width="36" height="36" loading="lazy"><div><b>ひろい</b> <span>@hiroyzero</span><br><span>11月23日 13:07，赞 341</span></div></div><p class="tx">女性のお客様にもっとご活用いただきたいのが「インターホンもしくは玄関ドア越しの置き配指定」です。やり方はいたって簡単！インターホンが鳴ったらドライバーに「そこに置いといてください」と言うだけです。もちろん玄関のドア越しに言っていただいても構いません。そうすれば我々はその場に荷物を置いてすぐに立ち去ります。お客様は我々が見えなくなってから玄関を開けて、自分のタイミングで荷物を引き取ってください。もちろんドライバーと対面する必要はないのでスッピンだろうがノーブラだろうがバケモノだろうが一切気にする必要はありません。人生の貴重な時間を宅配の待ち時間に左右される…</p><p class="ft"><a href="https://x.com/hiroyzero/status/2124716416255578132" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t82"><div class="hd"><img class="av" src="av/nisi02152758.jpg" alt="" width="36" height="36" loading="lazy"><div><b>nisi</b> <span>@nisi02152758</span><br><span>11月23日 10:15，赞 309</span></div></div><p class="tx">原価はこれを自分で作る場合のコストでいうと
+ご飯🍚30円
+味噌汁30円
+卵30円
+牛肉100ｇ300円として50ｇなら150円？
+原価合計240円
+
+差額140円を追加で負担する価値があるかどうかが焦点
+
+🍚おかわり無料とあるから5杯追加で6杯以上なら元は取れる計算か</p><div class="q"><b>ふぇにくす</b> <span>@kuuhaku_saying</span><p>松屋の企業努力すごすぎる
+これで380円でご飯おかわり無料はヤバい</p></div><p class="ft"><a href="https://x.com/nisi02152758/status/2124673152014037306" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t84"><div class="hd"><img class="av" src="av/kenzy201.jpg" alt="" width="36" height="36" loading="lazy"><div><b>kenzy</b> <span>@kenzy201</span><br><span>11月23日 16:45，赞 166</span></div></div><p class="tx">東海道新幹線の超混雑、次は年末年始そして成人の日3連休なんだけど教訓は2つしかなさそうです。
+
+1️⃣スマートEXで1か月以上前に押さえる(変更無料/払戻し320円)
+2️⃣そもそも連休を避ける
+
+ひかりこだまなら→なかった
+自由席なら→なかった
+在来線乗り継ぎなら→青春18きっぷ期間だけど空いてる根拠は？</p><p class="ft"><a href="https://x.com/kenzy201/status/2124771367975637320" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t78"><div class="hd"><img class="av" src="av/mieno.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Mieno Yamagishi</b> <span>@mieno</span><br><span>11月23日 14:34，赞 41</span></div></div><p class="tx">またやられた。
+Amazon、置き配指定してあるのに、一階の郵便受けに入らないと「問題が発生しました」になって未配達にされる。次の日に配達されるからprimeに入ってるのに。
+これって、階段上りたくないから、次の人に押し付けるためにこうするんだってね。
+はー。古いマンションに住んでる人はAmazonで買うなってこと？ヤマトさんや佐川さんはこんなことしないよ…</p><a class="mw" href="https://x.com/mieno/status/2124738397990494437" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyWRvtbEAARqYV.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/mieno/status/2124738397990494437" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t77"><div class="hd"><img class="av" src="av/FIRE_cat55.jpg" alt="" width="36" height="36" loading="lazy"><div><b>FIRE猫</b> <span>@FIRE_cat55</span><br><span>11月23日 15:46，赞 13</span></div></div><p class="tx">Q. なぜ湾岸には名門進学校がないのか？
 A. 泥とゴミで埋め立てた地なのでそもそも歴史が浅い</p><div class="q"><b>FIRE猫</b> <span>@FIRE_cat55</span><p>晴海や豊洲などの湾岸民は一度は見るべき動画。
 晴海や月島は海底を掘った泥で、豊洲は関東大震災の瓦礫で埋め立てた土地。
 
 これだけの埋め立て地を、まだM8クラスの相模トラフ地震が襲った歴史はない。
 
-<a href="https://www.youtube.com/watch?v=1EpmW-kcVa8" target="_blank" rel="noopener">https://www.youtube.com/watch?v=1EpmW-kcVa8</a></p></div><p class="ft"><a href="https://x.com/FIRE_cat55/status/2124756378388664675" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t78"><div class="hd"><img class="av" src="av/mieno.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Mieno Yamagishi</b> <span>@mieno</span><br><span>11月23日 14:34，赞 41</span></div></div><p class="tx">またやられた。
-Amazon、置き配指定してあるのに、一階の郵便受けに入らないと「問題が発生しました」になって未配達にされる。次の日に配達されるからprimeに入ってるのに。
-これって、階段上りたくないから、次の人に押し付けるためにこうするんだってね。
-はー。古いマンションに住んでる人はAmazonで買うなってこと？ヤマトさんや佐川さんはこんなことしないよ…</p><a class="mw" href="https://x.com/mieno/status/2124738397990494437" target="_blank" rel="noopener"><img class="m" src="https://pbs.twimg.com/media/HXyWRvtbEAARqYV.jpg" alt="" loading="lazy"></a><p class="ft"><a href="https://x.com/mieno/status/2124738397990494437" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t79"><div class="hd"><img class="av" src="av/_NeverBehave_.jpg" alt="" width="36" height="36" loading="lazy"><div><b>NeverBehave</b> <span>@_NeverBehave_</span><br><span>11月23日 10:52，赞 10</span></div></div><p class="tx">我处理的办法：Apple Store
+<a href="https://www.youtube.com/watch?v=1EpmW-kcVa8" target="_blank" rel="noopener">https://www.youtube.com/watch?v=1EpmW-kcVa8</a></p></div><p class="ft"><a href="https://x.com/FIRE_cat55/status/2124756378388664675" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t79"><div class="hd"><img class="av" src="av/_NeverBehave_.jpg" alt="" width="36" height="36" loading="lazy"><div><b>NeverBehave</b> <span>@_NeverBehave_</span><br><span>11月23日 10:52，赞 10</span></div></div><p class="tx">我处理的办法：Apple Store
 
 他们会回收苹果设备会使用的一次性电池
 
@@ -521,50 +492,7 @@ AA可以收因为旧的苹果键盘还在用
 
 ①公園が充実してる
 
-列挙した駅から徒歩圏内に比較的大きな公園があります。武蔵小山・西小山からは林試の森公園が徒歩圏内であり、洗足駅・大岡山駅からは洗足池公園が徒歩圏内。特に林試の森は自然環境豊かで、様々な遊び方が出来、子供の成長に合わせて活用できる公園です。また、比較的交通量も東横エリアよりも少なく、学校や遊び場への移動についても不安要素が少ないです。
-
-②パルム商店街が多世代の欲を満たしてくれる
-
-日本初の大型アーケードである武蔵小山駅のパルム商店街。住所は品川区ですが、沿線の目黒区民も多く利用しています。家族連れで行きやすい回転ずし・ファミレス、喫茶店などのチェーンから個人店まで充実。子供が喜ぶゲームセンターやおもちゃ屋から、大人が日用使いしたい専門店まで、他世代が楽しめる商店街です。
-
-③相鉄線直通
-
-2023年に目黒線は相鉄線と直…</p><p class="ft"><a href="https://x.com/eitaaoki/status/2124785312518001083" target="_blank" rel="noopener">在 X 上看全文</a></p></li><li class="tw" id="t81"><div class="hd"><img class="av" src="av/nagoyaguragura.jpg" alt="" width="36" height="36" loading="lazy"><div><b>ぐらぐら</b> <span>@nagoyaguragura</span><br><span>11月23日 10:07，赞 1,300</span></div></div><p class="tx">業務連絡
-
-2027年度トヨタカレンダー確定
-
-GW 5/1-5.  5連休😇
-盆休8/7-15 9連休
-正月12/29-1/5 8連休
-
-3連休
-7/17-19
-9/18-20
-10/9-11
-1/8-10
-
-5/6-7を有休で9連休
-12/27-28を有休で12連休
-1/6-7有休でも12連休
-全部繋げると17連休</p><p class="ft"><a href="https://x.com/nagoyaguragura/status/2124671121887039765" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t82"><div class="hd"><img class="av" src="av/nisi02152758.jpg" alt="" width="36" height="36" loading="lazy"><div><b>nisi</b> <span>@nisi02152758</span><br><span>11月23日 10:15，赞 309</span></div></div><p class="tx">原価はこれを自分で作る場合のコストでいうと
-ご飯🍚30円
-味噌汁30円
-卵30円
-牛肉100ｇ300円として50ｇなら150円？
-原価合計240円
-
-差額140円を追加で負担する価値があるかどうかが焦点
-
-🍚おかわり無料とあるから5杯追加で6杯以上なら元は取れる計算か</p><div class="q"><b>ふぇにくす</b> <span>@kuuhaku_saying</span><p>松屋の企業努力すごすぎる
-これで380円でご飯おかわり無料はヤバい</p></div><p class="ft"><a href="https://x.com/nisi02152758/status/2124673152014037306" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t83"><div class="hd"><img class="av" src="av/YahooNewsTopics.jpg" alt="" width="36" height="36" loading="lazy"><div><b>Yahoo!ニュース</b> <span>@YahooNewsTopics</span><br><span>11月23日 16:36，赞 8,131</span></div></div><p class="tx">【気圧低下 24日は頭痛やめまい注意】
-<a href="https://news.yahoo.co.jp/pickup/6603682" target="_blank" rel="noopener">https://news.yahoo.co.jp/pickup/6603682</a></p><p class="ft"><a href="https://x.com/YahooNewsTopics/status/2124768914865520907" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t84"><div class="hd"><img class="av" src="av/kenzy201.jpg" alt="" width="36" height="36" loading="lazy"><div><b>kenzy</b> <span>@kenzy201</span><br><span>11月23日 16:45，赞 166</span></div></div><p class="tx">東海道新幹線の超混雑、次は年末年始そして成人の日3連休なんだけど教訓は2つしかなさそうです。
-
-1️⃣スマートEXで1か月以上前に押さえる(変更無料/払戻し320円)
-2️⃣そもそも連休を避ける
-
-ひかりこだまなら→なかった
-自由席なら→なかった
-在来線乗り継ぎなら→青春18きっぷ期間だけど空いてる根拠は？</p><p class="ft"><a href="https://x.com/kenzy201/status/2124771367975637320" target="_blank" rel="noopener">在 X 上打开</a></p></li><li class="tw" id="t85"><div class="hd"><img class="av" src="av/hiroyzero.jpg" alt="" width="36" height="36" loading="lazy"><div><b>ひろい</b> <span>@hiroyzero</span><br><span>11月23日 13:07，赞 341</span></div></div><p class="tx">女性のお客様にもっとご活用いただきたいのが「インターホンもしくは玄関ドア越しの置き配指定」です。やり方はいたって簡単！インターホンが鳴ったらドライバーに「そこに置いといてください」と言うだけです。もちろん玄関のドア越しに言っていただいても構いません。そうすれば我々はその場に荷物を置いてすぐに立ち去ります。お客様は我々が見えなくなってから玄関を開けて、自分のタイミングで荷物を引き取ってください。もちろんドライバーと対面する必要はないのでスッピンだろうがノーブラだろうがバケモノだろうが一切気にする必要はありません。人生の貴重な時間を宅配の待ち時間に左右されるなんてあまりにも不便だと思いませんか？「早く化粧を落としたいのに…」「早くシャワーを浴びたいのに…」「早くスッポンポンになりたいのに…」なんてお客様はぜひ置き配をご活用ください。よろしくお願いいたしますって隣のコースの玄前大好物さんが言ってました</p><p class="ft"><a href="https://x.com/hiroyzero/status/2124716416255578132" target="_blank" rel="noopener">在 X 上打开</a></p></li></ul>
+列挙した駅から徒歩圏内に比較的大きな公園があります。武蔵小山・西小山からは林試の森公園が…</p><p class="ft"><a href="https://x.com/eitaaoki/status/2124785312518001083" target="_blank" rel="noopener">在 X 上看全文</a></p></li></ul>
 </section>
 <section class="picks" id="picks"><h2>值得单独看的帖子</h2><ul><li><a class="pt" href="https://x.com/brucexu_eth/status/2124477857330340018" target="_blank" rel="noopener">Tailnet Lock 开启步骤</a><p>讲清 Tailnet Lock 防的是协调服务器被攻破后塞入假设备，附开启步骤、备份解锁密钥的提醒和与设备审批互斥等坑，用 Tailscale 的可以照着配。</p><span class="by"><img class="av" src="av/brucexu_eth.jpg" alt="" width="18" height="18" loading="lazy">brucexu.eth，赞 1,347</span></li><li><a class="pt" href="https://x.com/SystemArch_AI/status/2124654406561845589" target="_blank" rel="noopener">斯坦福 AI 智能体工程课免费上线</a><p>斯坦福 CS329Z 已放出8讲，由 DSPy 和 SWE-bench 团队授课，覆盖上下文、工具调用、MCP、评测和智能体框架，适合系统学习智能体开发。</p><span class="by"><img class="av" src="av/SystemArch_AI.jpg" alt="" width="18" height="18" loading="lazy">System Architect，赞 7</span></li><li><a class="pt" href="https://x.com/bei351009016/status/2124511435653034260" target="_blank" rel="noopener">用 Colab 命令行让智能体跑模型</a><p>Gemini Pro 订阅附带 Colab 算力，官方提供 Colab 命令行工具和给智能体用的 skill，作者测3个开源3D模型只花0.3点，附 GitHub 链接。</p><span class="by"><img class="av" src="av/bei351009016.jpg" alt="" width="18" height="18" loading="lazy">傲慢，赞 60，含图</span></li><li><a class="pt" href="https://x.com/Aruc_N/status/2124809453908246702" target="_blank" rel="noopener">开源安卓手机智能体 Mika</a><p>能在后台独立屏幕里操作微信、淘宝等应用，支持多家模型，数据默认存在手机上，需 Android 12 以上并开无线调试，Apache 2.0 开源。</p><span class="by"><img class="av" src="av/Aruc_N.jpg" alt="" width="18" height="18" loading="lazy">Aruc N，赞 1</span></li><li><a class="pt" href="https://x.com/vikingmute/status/2124766154220786071" target="_blank" rel="noopener">让智能体操控已登录的浏览器</a><p>MCP 服务器加 Chromium 扩展，让智能体在后台标签组里操作你已登录的浏览器，登录、两步验证和付款需手动确认，最近用 Rust 重写。</p><span class="by"><img class="av" src="av/vikingmute.jpg" alt="" width="18" height="18" loading="lazy">Viking，赞 14</span></li><li><a class="pt" href="https://x.com/lingjieowl/status/2124755573501768132" target="_blank" rel="noopener">Transformer 最小教学实现</a><p>约10万参数的教学实现，包含因果掩码、KV Cache、RoPE、GQA，配10个验证用例，CPU 上1.7秒训完，适合对照理解架构。</p><span class="by"><img class="av" src="av/lingjieowl.jpg" alt="" width="18" height="18" loading="lazy">凌杰，赞 4，含图</span></li><li><a class="pt" href="https://x.com/keeplebalive/status/2124768085613728249" target="_blank" rel="noopener">Inkling 2 Small 报告的详细解读</a><p>做强化学习的研究者推荐的一篇知乎长文，详细解读 Thinking Machines 的 Inkling 2 Small 技术报告。</p><span class="by"><img class="av" src="av/keeplebalive.jpg" alt="" width="18" height="18" loading="lazy">khazzz1c，赞 66</span></li><li><a class="pt" href="https://x.com/Hi_Mrinal/status/2124739076301758556" target="_blank" rel="noopener">推荐从零实现的学习型索引论文</a><p>论文 Bourbon 用分段线性回归学习键的分布，加速 LSM 树查询，比主流实现快1.2到1.8倍，作者建议从零实现练手。</p><span class="by"><img class="av" src="av/Hi_Mrinal.jpg" alt="" width="18" height="18" loading="lazy">Mrinal，赞 288</span></li><li><a class="pt" href="https://x.com/laogui/status/2124535745281143235" target="_blank" rel="noopener">开源图标库 Solar Icons</a><p>每个图标有6种原生风格，含双色和断线风格，支持 CSS 变量换主题和 MCP 工具链，配套 Figma 组件库，可替代 Lucide。</p><span class="by"><img class="av" src="av/laogui.jpg" alt="" width="18" height="18" loading="lazy">老鬼，赞 238，含图</span></li><li><a class="pt" href="https://x.com/tison1096/status/2124676168016400675" target="_blank" rel="noopener">手动合并两个 Git 仓库的记录</a><p>作者2021年在 PingCAP 手动合并两个 GitHub 仓库并保留历史的完整操作记录，需要合并仓库时可以参考。</p><span class="by"><img class="av" src="av/tison1096.jpg" alt="" width="18" height="18" loading="lazy">tison，赞 34</span></li></ul></section>
 <footer><p>另有 105 条帖子没有收入摘要。</p>
