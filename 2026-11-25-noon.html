@@ -88,8 +88,9 @@ a.by:hover{color:var(--ink);text-decoration:underline;text-underline-offset:.2em
 .smalls .bys{display:flex;flex-wrap:wrap;gap:.2rem 1rem;margin-top:.3rem}
 .smalls .tag{vertical-align:.1em;font-size:.72rem}
 @media (max-width:760px){.smalls{grid-template-columns:1fr}.sh{font-size:1.6rem}.topic h3{font-size:1.3rem}}
-.tweets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.1rem 1.6rem;margin-top:1.4rem;align-items:start}
-.tw{border:1px solid #dcdcd5;border-radius:12px;padding:.85rem 1rem .7rem;scroll-margin-top:.5rem}
+.tweets{columns:2;column-gap:1.6rem;margin-top:1.4rem}
+.tw{border:1px solid #dcdcd5;border-radius:12px;padding:.85rem 1rem .7rem;scroll-margin-top:.5rem;break-inside:avoid;margin-bottom:1.1rem}
+.tw .prev{margin:.55rem 0 0;font-size:.84rem}
 .tw .hd{display:flex;align-items:center;gap:.6rem;font-size:.84rem;line-height:1.45;color:var(--muted)}
 .tw .hd b{color:var(--ink);font-weight:700;font-size:.92rem}
 .tw .tx{white-space:pre-wrap;word-break:break-word;font-size:.96rem;line-height:1.7;margin-top:.55rem}
@@ -103,7 +104,7 @@ a.by:hover{color:var(--ink);text-decoration:underline;text-underline-offset:.2em
 .tw .ft{margin-top:.45rem;font-size:.8rem}
 .tw .ft a{color:var(--muted);text-underline-offset:.2em}
 @media (prefers-color-scheme:dark){.tw{border-color:#33332f}.tw .tx a,.tw .q a{color:#8ab4ff}}
-@media (max-width:760px){.tweets{grid-template-columns:1fr}}
+@media (max-width:760px){.tweets{columns:1}}
 .vt{display:inline-flex;gap:.3rem;margin-left:.7rem;vertical-align:middle}
 .vt button{font:inherit;font-size:.8rem;line-height:1;padding:.28rem .5rem;border:1px solid #dcdcd5;border-radius:999px;background:transparent;cursor:pointer;opacity:.55}
 .vt button:hover{opacity:1}
